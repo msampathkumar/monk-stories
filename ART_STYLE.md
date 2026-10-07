@@ -15,31 +15,37 @@ This document defines the strict visual identity, artistic principles, character
 
 ---
 
-## 2. Character Representation: Hindu Sages (Rishis & Munis)
+## 2. Character Representation: Context-Aware Archetypes
 
-All spiritual counselors, mentors, and protagonists in Hindu and Indian philosophical stories must be depicted as authentic **Vedic Hindu Sages (Rishis, Munis, Acharyas, Yogis)**, not East Asian monks.
+To honor the cultural and philosophical roots of each parable, character depiction is strictly matched to the story's tradition:
 
-### Key Visual Attributes:
-- **Hair**: Long matted hair gathered gracefully into a traditional **Vedic Rishi Jata (topknot)**.
-- **Beard**: Flowing, dignified natural ascetic beard.
-- **Attire**: Simple handspun ascetic cotton **dhoti** or unstitched ochre/white ascetic cloth (*uttariya*).
-- **Sacred Ornaments**: Natural **Rudraksha beads** (*mala*) on the neck or wrist.
-- **Tilak**: Subtle sacred mark on the forehead (**Vibhuti / Bhasma** horizontal lines or **Urdhva Pundra** sandalwood tilak).
-- **Posture**: Sitting in stable *Padmasana* (lotus pose) or *Siddhasana* on a grass mat (*kusha grass*) or natural stone slab.
+### A. Hindu & Vedic Stories (Mahabharata, Ramayana, Puranas, Vedas, Satakams, Chanakya)
+Depict authentic **Vedic Hindu Sages (Rishis, Munis, Acharyas, Yogis)**:
+- **Hair**: Matted ascetic hair gathered into a traditional **Vedic Rishi Jata (topknot)**.
+- **Beard**: Flowing, natural ascetic beard.
+- **Attire**: Simple unstitched cotton **dhoti** or ochre/white ascetic wrap (*uttariya*).
+- **Sacred Ornaments**: Natural **Rudraksha beads** (*mala*) on neck or wrist.
+- **Tilak**: Subtle sacred forehead markings (**Vibhuti / Bhasma** lines or sandalwood tilak).
+- **Setting**: Forest hermitage (*Ashram / Tapovan*), beneath ancient **Banyan** or **Peepal** trees, hermitage huts (*parnashala*), sacred river banks, lotus ponds.
 
-### Settings & Environment:
-- **Forest Hermitage (*Ashram / Tapovan*)**: Beneath ancient **Banyan (*Vata*)** or **Peepal (*Ashvattha*)** trees.
-- **Elements**: Thatched hermitage hut (*parnashala*), sacred river ghats, sacrificial fire altar (*homa kunda*), lotus ponds, mountain retreats.
-- **Flora & Fauna**: Serpents, deer, peacocks, swans, cows, banyan hanging roots.
+### B. Buddhist & Zen Stories (Jataka Tales, Dhammapada, Zen Parables)
+Depict authentic **Buddhist Monks (Bhikkhus, Zen Masters)**:
+- **Appearance**: Shaved head, serene calm countenance, no elaborate jewelry.
+- **Attire**: Simple monastic robe (*kasaya* / sanghati) draped gracefully over one or both shoulders.
+- **Setting**: Zen rock gardens, mountain monasteries, bamboo groves, stone meditation platforms, quiet streams.
 
 ---
 
-## 3. Standard AI Prompt Formula
+## 3. Standard AI Prompt Formulas
 
-When generating new story illustrations, use this exact prompt template:
-
+### Formula for Hindu / Vedic Stories:
 ```text
-A minimalist ink wash painting, black and white brush stroked artwork with authentic Indian aesthetic, an ancient Hindu sage (Rishi) with serene expression, long beard, hair tied in a Vedic rishi jata topknot, wearing simple ascetic dhoti and rudraksha beads, subtle tilak on forehead, sitting under an ancient banyan tree outside a forest ashram hermitage, [SPECIFIC ACTION OR OBJECT: e.g. observing a serpent coiled gracefully beside a lotus flower], traditional brushwork, high contrast monochrome, contemplative and dignified atmosphere.
+A minimalist ink wash painting, black and white brush stroked artwork with authentic Indian aesthetic, an ancient Hindu sage (Rishi) with serene expression, long beard, hair tied in a Vedic rishi jata topknot, wearing simple ascetic dhoti and rudraksha beads, subtle tilak on forehead, sitting under an ancient banyan tree outside a forest ashram hermitage, [SCENE DETAILS], traditional brushwork, high contrast monochrome, contemplative and dignified atmosphere.
+```
+
+### Formula for Buddhist / Zen Stories:
+```text
+A minimalist sumi-e ink wash painting, black and white brush stroked artwork, a serene Buddhist monk with shaved head and draped monastic robes, sitting calmly in quiet contemplation, [SCENE DETAILS], traditional Zen calligraphy brushwork, high contrast monochrome, minimalist parchment background.
 ```
 
 ### Negative Prompts / Excluded Elements:
