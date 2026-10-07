@@ -1,0 +1,69 @@
+site_name: Monk Stories
+site_description: Timeless parables from Indian epics, philosophy, and power dynamics for navigating modern workplace politics and human nature.
+site_author: Sampath Kumar
+site_url: https://msampathkumar.github.io/monk-stories/
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode (Ink & Parchment)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode (Sumi-e Charcoal)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - blog:
+      blog_dir: posts
+      blog_toc: true
+      post_date_format: yyyy-MM-dd
+      post_url_date_format: yyyy/MM/dd
+      pagination: true
+      pagination_per_page: 5
+      archive: true
+      categories: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Stories & Parables: posts/index.md
+  - About: about.md

@@ -1,0 +1,21 @@
+# Environment & virtualenv
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# MkDocs build output
+site/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
