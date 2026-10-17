@@ -2,13 +2,17 @@
 """
 Monk Stories Daily Publisher
 Automates the drafting, illustration, and publication of daily wisdom parables.
-Adheres strictly to ART_STYLE.md for Vedic/Hindu Rishi character design and monochrome ink-wash aesthetics.
+Adheres strictly to AGENTS.md and ART_STYLE.md for Vedic/Hindu Rishi character design,
+full-bleed edge-to-edge framing, and 100% monochrome ink-wash aesthetics.
 Enforces task-centric work via `tk` (/home/sampathm/.local/bin/tk).
+Uses ONLY our own Google Gemini API (gemini-3.1-flash-image) with zero third-party fallbacks.
 """
 
 import os
 import sys
-import subprocess
+import json
+import base64
+import requests
 import datetime
 from pathlib import Path
 
@@ -17,15 +21,17 @@ POSTS_DIR = REPO_ROOT / "docs" / "posts"
 IMAGES_DIR = REPO_ROOT / "docs" / "assets" / "images" / "posts"
 BOOKS_DIR = Path.home() / "books"
 ART_STYLE_GUIDE = REPO_ROOT / "ART_STYLE.md"
+AGENTS_GUIDE = REPO_ROOT / "AGENTS.md"
 TK_BIN = Path.home() / ".local" / "bin" / "tk"
 
-# Standard prompt template adhering strictly to ART_STYLE.md
+# Hardened prompt template: strictly full bleed, monochrome, zero seals/frames/text
 PROMPT_TEMPLATE = (
     "A minimalist ink wash painting, black and white brush stroked artwork with authentic Indian aesthetic, "
-    "an ancient Hindu sage (Rishi) with serene expression, long beard, hair tied in a Vedic rishi jata topknot, "
-    "wearing simple ascetic dhoti and rudraksha beads, subtle tilak on forehead, sitting under an ancient banyan tree "
-    "outside a forest ashram hermitage, {scene_details}, traditional brushwork, high contrast monochrome, "
-    "contemplative and dignified atmosphere."
+    "an ancient Hindu sage (Rishi) with serene expression, long flowing beard, hair tied in a Vedic rishi jata topknot, "
+    "wearing simple ascetic dhoti and natural rudraksha beads, subtle tilak on forehead, sitting under an ancient banyan tree "
+    "outside a forest ashram hermitage, {scene_details}, traditional Indian brushwork, high contrast monochrome, "
+    "full-bleed edge-to-edge composition, strictly no borders, no paper frames, no deckle edges, no artist seals, "
+    "no stamps, no text, no color accents, contemplative and dignified atmosphere."
 )
 
 def ensure_directories():
@@ -34,34 +40,51 @@ def ensure_directories():
     BOOKS_DIR.mkdir(parents=True, exist_ok=True)
 
 def generate_art_prompt(scene_details: str) -> str:
-    """Generate image prompt adhering strictly to ART_STYLE.md"""
+    """Generate image prompt adhering strictly to ART_STYLE.md and AGENTS.md guardrails."""
     return PROMPT_TEMPLATE.format(scene_details=scene_details)
 
-def run_tk(args: list[str]) -> str:
-    """Execute tk command inside monk-stories repository."""
-    cmd = [str(TK_BIN)] + args
-    result = subprocess.run(cmd, cwd=str(REPO_ROOT), capture_output=True, text=True, check=True)
-    return result.stdout.strip()
+def generate_illustration(prompt: str, output_path: Path) -> Path:
+    """Generate high-resolution 16:9 monochrome illustration using Gemini 3.1 Flash Image."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY environment variable is missing!")
 
-def tk_create_daily_ticket(title: str, parent: str = "ms-3lwv") -> str:
-    """Create a new daily story ticket in tk and transition it to in_progress."""
-    output = run_tk(["create", f"Daily Story: {title}", "-t", "task", "-p", "2", "--parent", parent, "-d", f"Publish daily story '{title}'"])
-    ticket_id = output.splitlines()[-1].strip()
-    run_tk(["start", ticket_id])
-    return ticket_id
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image:generateContent?key={api_key}"
+    payload = {
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseModalities": ["TEXT", "IMAGE"],
+            "imageConfig": {
+                "aspectRatio": "16:9",
+                "imageSize": "2K"
+            }
+        }
+    }
 
-def tk_complete_daily_ticket(ticket_id: str, notes: str):
-    """Log completion notes and close the ticket."""
-    run_tk(["add-note", ticket_id, notes])
-    run_tk(["close", ticket_id])
+    res = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=120)
+    res.raise_for_status()
+    data = res.json()
+
+    for cand in data.get("candidates", []):
+        for part in cand.get("content", {}).get("parts", []):
+            inline = part.get("inlineData") or part.get("inline_data")
+            if inline:
+                b64_data = inline.get("data")
+                img_bytes = base64.b64decode(b64_data)
+                with open(output_path, "wb") as f:
+                    f.write(img_bytes)
+                print(f"[monk-stories] Successfully generated: {output_path} ({len(img_bytes)} bytes)")
+                return output_path
+
+    raise RuntimeError("No image data returned from Gemini API")
 
 def main():
     ensure_directories()
     today = datetime.date.today().strftime("%Y-%m-%d")
     print(f"[monk-stories] Daily publisher initialized for {today}")
     print(f"[monk-stories] Art style guide loaded: {ART_STYLE_GUIDE}")
+    print(f"[monk-stories] Agent rules loaded: {AGENTS_GUIDE}")
     print(f"[monk-stories] Task tracker: {TK_BIN}")
-    print(f"[monk-stories] Reference books available in: {BOOKS_DIR}")
 
 if __name__ == "__main__":
     main()
