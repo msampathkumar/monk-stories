@@ -114,6 +114,8 @@ A performative predator preys only on the defenseless. When they realize that co
 ### 4. The Power of Cool, Dispassionate Action
 When the crab saw the bones on the rock, he did not waste precious seconds arguing about ethics or weeping over broken trust. He accepted reality instantly and applied decisive leverage. If you discover that a leader has betrayed your confidence or traded away your team, do not indulge in emotional confrontations or bitter hallway complaints. Update your portfolio, secure your intellectual property, establish direct relationships with righteous stakeholders, and exit their sphere of influence with absolute composure.
 
+**Source:** Panchatantra, Book 1 (Mitra-bheda), "The Crane and the Crab" (Baka-Karkataka Katha)
+
 Anil bowed his head in profound reverence. The knot of betrayal in his chest had untangled, replaced by the cool, tempered steel of discernment.
 
 > *"The righteous man does not fear the storm, nor does he fear the open adversary. He watches the weeping crane, keeps his pincers sharp, and never lets another carry his destiny in their beak."*

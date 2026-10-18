@@ -148,6 +148,8 @@ def validate(path, force_strict=False, repo_check=True):
             fail(f"closing blockquote has {sl.word_count(last)} words (> 45)")
 
     # --- language [all]
+    if "{{" in text or "}}" in text:
+        fail("unfilled template slot '{{...}}' remains")
     low = body.lower()
     for phrase in BANNED:
         if phrase in low:
