@@ -17,7 +17,7 @@ Rules:
 <!-- QUEUE:BEGIN -->
 | Status | Slug | Story | Lore category | Source text | Locator | Key | Workplace theme |
 |---|---|---|---|---|---|---|---|
-| [ ] | the-monkey-and-the-crocodile | The Monkey and the Crocodile | Panchatantra | Panchatantra | Book 4 (Labdhapranasham) | Crocodile | Presence of mind when a trusted ally turns on you |
+| [x] 2026-10-18 | the-monkey-and-the-crocodile | The Monkey and the Crocodile | Panchatantra | Panchatantra | Book 4 (Labdhapranasham) | Crocodile | Presence of mind when a trusted ally turns on you |
 | [ ] | the-talkative-tortoise | The Talkative Tortoise | Jataka Tales | Jataka Tales | Kacchapa Jataka, No. 215 (UNVERIFIED) | Tortoise | Speaking at the wrong moment destroys a rescue plan |
 | [ ] | the-blue-jackal | The Blue Jackal | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) | Blue Jackal | Impostor leaders exposed by their own nature |
 | [ ] | manthara-whisper | Manthara's Whisper to Kaikeyi | Ramayana | Valmiki Ramayana | Ayodhya Kanda | Manthara | The confidant who poisons a leader's judgment |
