@@ -1,53 +1,40 @@
 ---
 name: monk-parable-curator
-description: "Curates, drafts, and formats daily wisdom parables for Monk Stories, extracting high-leverage lessons from classical Indian lore and adapting them to modern organizational dynamics."
+description: "Use when drafting, editing, or reviewing a Monk Stories parable post (docs/posts/*.md) or adding stories to the queue. Covers retelling a classical Indian or Buddhist story and mapping it to workplace politics, following the repo's story standard and validator."
 ---
 
-# Monk Stories Parable Curator Skill
+# Monk Parable Curator
 
-Use this skill when researching, drafting, structuring, or updating parables for the `monk-stories` repository.
+## When to use
+- Writing a new daily post (called from `workflows/publish-daily-story.md` step 4).
+- Fixing a post that fails `scripts/validate_story.py` or the story rubric.
+- Choosing stories for `standards/story-queue.md` (`workflows/add-queue-items.md`).
 
-## 1. Wisdom Sources & Philosophical Roots
+## Procedure
+1. Get the unit: `python3 scripts/next_item.py` (never choose a story freely).
+2. Read `standards/story.md` (format and limits) and the archetype section of
+   `standards/lineage.md` named by `archetype:`.
+3. Copy `templates/post.md` to the `post:` path. Fill slots in order; match the
+   section rhythm of `examples/2026-10-17-the-pious-predator.md`.
+4. Retelling (Part 2): include only events you can attribute to the named
+   source. If a detail is uncertain, omit it. Never invent verse numbers; write
+   `UNVERIFIED` in the Source line instead.
+5. Mirror (Part 3): one workplace behaviour per story beat; give each a short
+   bold name and one line of dialogue a colleague might say.
+6. Rules (Part 4): ≥ 3 `### N.` rules; each names an action doable this week
+   (verb + object, e.g. "email a written summary after every 1:1").
+7. Close with the Source line, 1–3 sentences of the seeker's changed state,
+   then the blockquote aphorism using the story's central image.
+8. Run `python3 scripts/validate_story.py <post>`; fix each FAIL line (max 2
+   loops), then answer the rubric in the workflow.
 
-Draw exclusively from authentic classical sources available in `~/books/` or established Indian philosophical literature:
-- **Vidura Neeti / Mahabharata:** Navigating toxic courts, corrupted boards, sycophancy, silent boundaries, Shalya-vritti (demoralization).
-- **Chanakya Neeti / Arthashastra:** Power dynamics, strategic realism, poison in the milk (sweet saboteurs), containment.
-- **Vemana Satakam:** Moral directness, the scorpion's tail (innate malice), empty boasters vs quiet competence.
-- **Ramayana (Vibhishana, Hanuman, Sugriva):** Ethical thresholds, knowing when to walk away from toxic leadership, unwavering service.
-- **Buddhist Parables (Akkosa Sutta, Jatakas, Dhammapada):** Deflecting insults (the unaccepted gift), non-reactive composure, quiet detachment.
+## Standards referenced
+- `standards/story.md` — structure, word counts, banned phrases, Source line, duplicates.
+- `standards/lineage.md` — allowed lore categories; Rishi vs Monk teacher.
+- `standards/story-queue.md` — the ordered backlog.
 
-## 2. Narrative Structure
-
-Every post must follow the five-part architecture:
-1. **The Tension / The Approach:** A courtier, counselor, or minister arrives at the hermitage burdened by a modern-mirroring crisis.
-2. **The Rishi's / Monk's Observation:** A grounded physical metaphor in the hermitage (a banyan root, a clay pot, milk, a scorpion, a stone pillar).
-3. **The Ancient Doctrine:** The verse or aphorism explained through timeless psychological realism.
-4. **The Corporate / Workplace Mirror:** Direct, actionable translation into modern engineering, executive leadership, or organizational politics.
-5. **The Provocation:** A sharp, unforgettable closing aphorism or question that lingers with the reader.
-
-## 3. Formatting & Metadata Rules
-
-- **Location:** `docs/posts/YYYY-MM-DD-slug.md`
-- **Frontmatter:**
-```yaml
----
-date: YYYY-MM-DD
-authors:
-  - monk
-categories:
-  - Office Politics
-  - <Lore Source, e.g. Mahabharata / Chanakya Neeti>
-  - Power & Strategy
-tags:
-  - <Specific theme, e.g. Toxic Leadership>
-  - Emotional Intelligence
-  - Ancient Wisdom
----
-```
-- **Image Embed:** Must immediately follow the title header:
-```markdown
-# Title of the Story
-
-![Alt Text describing the scene](../assets/images/posts/YYYY-MM-DD-slug.jpg)
-```
-- **Language & Tone:** Serious, dignified, psychologically astute. Strictly no corporate clichés, no buzzwords, and zero AI slop.
+## Red lines
+- Never pick a story outside the queue during a daily run.
+- Never present an invented quote as a verbatim verse.
+- Never mix a Rishi teacher into a Buddhist story or a Buddhist monk into a Hindu story.
+- Never commit a post with validator FAILs.

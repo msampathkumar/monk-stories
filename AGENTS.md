@@ -1,60 +1,84 @@
-# AGENTS.md — Monk Stories Operational Rules & Workflows
+# AGENTS.md — Monk Stories
 
-## 1. Repository Mission & Identity
-**Monk Stories** publishes daily timeless philosophical parables grounded in classical Indian traditions (Mahabharata, Ramayana, Puranas, Vemana Satakam, Chanakya Neeti, Vidura Neeti, and Buddhist Akkosa Sutta/Jatakas), adapted to modern organizational psychology and executive presence.
+## Mission
+Publish one parable per day from classical Indian and Buddhist lore, retold for
+modern workplace politics, with one monochrome ink-wash illustration.
+Static site: MkDocs Material (`mkdocs.yml`), posts in `docs/posts/`.
 
-Publications run daily at **04:00 AM IST (22:30 UTC)** via MkDocs Material.
+Audience: working professionals dealing with office politics; owner Sampath
+Kumar (msampathkumar).
 
----
+## Milestone and Definition of Done
+**Milestone M1 (epic `ms-3lwv`): 30 daily posts that pass strict
+validation**, starting 2026-10-18 (target proposed 2026-10-18; owner to confirm).
+- DoD per day: `python3 scripts/validate_story.py <post>` exit 0,
+  `python3 scripts/validate_image.py <image>` exit 0, visual audit 8/8,
+  rubric 8/8, `mkdocs build` exit 0, commit pushed.
+- Milestone count: number of `docs/posts/*.md` dated ≥ 2026-10-18 that pass
+  `validate_story.py` — target 30.
+- Legacy posts (before 2026-10-18) only need the `[all]` rules in
+  `standards/story.md`.
 
-## 2. Dedicated Agent Roles
-- **Katha (Parable Curator & Scribe):** Researches classical lore from `~/books/`, extracts psychological mechanisms, and authors structured Markdown parables following the `monk-parable-curator` skill.
-- **Chitra (Monochrome Art Director & Quality Gatekeeper):** Translates the story's core metaphor into authentic Indian brushwork prompts, invokes our Gemini image generation engine, audits the output against visual invariants, and enforces zero-defect quality before publication.
+## Workflow index
+| Trigger | Workflow |
+|---|---|
+| Daily 04:00 IST automation, or "publish today's story" | `workflows/publish-daily-story.md` |
+| Generate or replace one illustration | `workflows/generate-illustration.md` |
+| `next_item.py` exit 11 or "fewer than 3 queue items" warning | `workflows/add-queue-items.md` |
 
----
+## Single sources of truth
+| Topic | File |
+|---|---|
+| Post format, word counts, naming, date rule, duplicates | `standards/story.md` |
+| Lore categories → lineage → Rishi/Monk archetype | `standards/lineage.md` |
+| Illustration style, prompts, forbidden artifacts, visual audit | `standards/art.md` |
+| Next stories (ordered) | `standards/story-queue.md` |
+| Post template / golden example | `templates/post.md` / `examples/2026-10-17-the-pious-predator.md` |
 
-## 3. Strict Rules & Red Lines
+Skills (`skills/*/SKILL.md`) and personas (`agents/*.md`) link to these; they
+never restate them. If a rule conflicts, the `standards/` file wins.
 
-### Rule 1: Zero External Fallback Scrapers (Hard Red Line)
-- **NEVER** call `pollinations.ai`, Unsplash, or any unauthorized external generation/scraping endpoint.
-- **ALWAYS** use our own Google Gemini API (`gemini-3.1-flash-image` via `GEMINI_API_KEY`).
-- If an API call fails or times out, retry with exponential backoff or alert the operator. Do not substitute synthetic 3D fallbacks.
+## Scripts (python3 stdlib; run from repo root)
+| Command | Purpose | Exit codes |
+|---|---|---|
+| `python3 scripts/next_item.py` | Next story for today's UTC date | 0 item, 10 already published, 11 queue empty |
+| `python3 scripts/validate_story.py <post>` / `--all` | Layer A gate for posts | 0 pass, 1 fail |
+| `python3 scripts/validate_image.py <jpg>` | Layer A gate for images | 0 pass, 1 fail |
+| `python3 scripts/check_duplicate.py <post>` | Duplicate-story check | 0 unique, 1 duplicate |
+| `.venv/bin/mkdocs build -q` | Site build | 0 ok |
+| `scripts/publish_daily_story.py` | Legacy helper: `generate_illustration()` Gemini call; `main()` only prints paths | — |
 
-### Rule 2: Pure Monochrome Full-Bleed Aesthetics
-- All illustrations must be **100% black and white ink wash**. No red stamps, no yellow/gold dome washes, no color accents.
-- All illustrations must be **full-bleed edge-to-edge**.
-- **Forbidden Artifacts:**
-  - ❌ Paper-cut frames, torn paper, deckle edges, border margins, or mounting frames.
-  - ❌ Chinese/Japanese Hanko chop marks, red artist seal stamps, or red square seals.
-  - ❌ Devanagari calligraphy text, inscriptions, signatures, or quotes painted on the canvas.
-  - ❌ Third-party watermarks or logos.
+## Automation boundary
+- Automation `daily-monk-story-publisher` (cron `0 4 * * *` Asia/Kolkata)
+  runs **only** `workflows/publish-daily-story.md`, one post per run.
+- Pause rule: the automation does nothing when `next_item.py` exits 10
+  (already published) and stops BLOCKED when it exits 11 (queue empty).
+- Owner review point: when 30 strict posts exist (M1 reached), report to the
+  owner and keep publishing only if the owner confirms. UNVERIFIED: the owner
+  has not yet set an end date for the series.
+- The automation never edits `standards/`, `scripts/`, `mkdocs.yml`, or
+  `AGENTS.md` (only the queue row status in `standards/story-queue.md`).
 
-### Rule 3: Character Lineage Alignment
-- **Hindu, Vedic, and Telugu Stories:** Depict authentic **Vedic Hindu Sages (Rishis/Munis)** with ascetic matted hair (*rishi jata* topknot), flowing beard, natural rudraksha beads, subtle forehead tilak/vibhuti, unstitched cotton dhoti, seated beneath an ancient Banyan or Peepal tree outside a forest ashram hermitage (*parnashala*).
-- **Buddhist & Zen Stories:** Depict authentic **Buddhist Monks (Bhikkhus)** with clean shaved heads and draped monastic robes (*kasaya*). Never mix traditions.
+## Red lines (each testable)
+1. Never call `pollinations.ai`, Unsplash, stock sites, or any non-Gemini image
+   route. Test: `git grep -n -i "pollinations\|unsplash" -- scripts`
+   prints nothing.
+2. Never commit an image that has not passed the 8-question visual audit in
+   `standards/art.md` §5; the tk note must contain the audit line.
+3. Never commit a post that fails `validate_story.py`.
+4. Never mix archetypes: rishi posts/images have no Buddhist monk; monk
+   posts/images have no Rishi (`standards/lineage.md`).
+5. One post per UTC date (`next_item.py` exit 10 enforces).
+6. Every run starts with `tk create` + `tk start` and ends with `tk close` or a
+   `BLOCKED:` note; `.tickets/` is committed with the change.
+7. `git add <explicit paths>` only — never `git add .` or `-A`; never
+   force-push; never commit `.env`, keys, or `site/`.
+8. Max 2 fix loops per gate; then `BLOCKED:` note, ticket left open, no commit.
+9. Use `trash`, never `rm`, for removals.
 
-### Rule 4: Mandatory Pre-Commit Visual Verification
-- Every generated image MUST be inspected via `view_image` before being committed to Git.
-- Confirm full-bleed framing, authentic archetype, absence of seals/frames/text, and pure monochrome palette.
-
-### Rule 5: Task-Centric Execution (`tk`)
-- Every daily run and maintenance task must begin with `tk create`, proceed with `tk start`, log progress with `tk add-note`, and finish with `tk close`, committing `.tickets/` with the changes.
-
----
-
-## 4. Layered Workflows
-
+## Repo layout
 ```
-[1. Katha Sourcing] 
-     ↓ Read classical wisdom from ~/books/ (Vemana, Chanakya, Vidura, Ramayana)
-[2. Katha Drafting]
-     ↓ Draft 5-part parable in docs/posts/YYYY-MM-DD-<slug>.md
-[3. Chitra Art Direction]
-     ↓ Compose hardened prompt with explicit negative constraints
-[4. Gemini Generation]
-     ↓ Call gemini-3.1-flash-image (16:9 widescreen, 2K resolution)
-[5. Quality Audit]
-     ↓ Inspect via view_image: verify full-bleed, monochrome, zero seals/frames
-[6. Site Build & DR]
-     ↓ .venv/bin/mkdocs build → tk close → git commit & push to origin master
+AGENTS.md  standards/  workflows/  templates/  examples/  scripts/
+skills/<name>/SKILL.md  agents/<persona>.md  docs/  mkdocs.yml  .tickets/
 ```
+`docs/art-style.md` is a public site page, not a rule source.

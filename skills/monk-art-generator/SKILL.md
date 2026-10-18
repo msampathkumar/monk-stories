@@ -1,83 +1,35 @@
 ---
 name: monk-art-generator
-description: "Generates authentic, full-bleed monochrome ink wash illustrations for Monk Stories using the Google Gemini image generation API, strictly eliminating paper frames, seals, stamps, text, and foreign artifacts."
+description: "Use when generating, auditing, or regenerating a Monk Stories illustration (docs/assets/images/posts/*.jpg): monochrome ink-wash, full-bleed, Rishi for Hindu lore and shaved-head monk for Buddhist lore, Gemini image generation only."
 ---
 
-# Monk Stories Art Generator Skill
+# Monk Art Generator
 
-Use this skill when generating, inspecting, or regenerating wisdom parable illustrations for the `monk-stories` repository.
+## When to use
+- Creating the image for a new post (`workflows/publish-daily-story.md` step 6).
+- Replacing a defective existing image (`workflows/generate-illustration.md`, standalone mode).
+- Auditing existing images against the visual audit.
 
-## 1. Visual Directives & Aesthetic Rules
+## Procedure
+1. Find the archetype: the post's lore category → `standards/lineage.md` table
+   (`rishi` or `monk`).
+2. Copy the matching prompt formula from `standards/art.md` §4 verbatim;
+   replace only `[SCENE DETAILS]` (15–40 words, no colour words).
+3. Generate with the OpenClaw `image_generate` tool at 16:9. Allowed
+   alternative: `generate_illustration()` in `scripts/publish_daily_story.py`
+   (needs `GEMINI_API_KEY`; never print the key).
+4. Save to `docs/assets/images/posts/<post-stem>.jpg` (convert non-JPEG with
+   `ffmpeg -i in.png -q:v 2 out.jpg`).
+5. Run `python3 scripts/validate_image.py <jpg>`.
+6. Open the image with `view_image`; answer the 8 questions in
+   `standards/art.md` §5. Any NO → append `, absolutely no <item>` and
+   regenerate. Max 2 regenerations, then BLOCKED.
 
-- **Medium:** Minimalist monochrome ink wash painting with authentic Indian Kalamkari and brush-stroke aesthetic.
-- **Palette:** Strictly 100% black and white. Deep Indian ink black, diluted grayscale washes, clean off-white negative space. Absolutely zero color accents (no red, gold, saffron, or yellow).
-- **Composition:** Full-bleed canvas from edge to edge. The artwork must extend directly to the border of the image file.
-- **Negative Invariants (Zero Tolerance):**
-  - ❌ NO paper-cut frames, deckle edges, torn parchment borders, or mounting margins.
-  - ❌ NO red artist seals, Hanko stamps, Chinese/Japanese chop marks, or colored emblems.
-  - ❌ NO text, calligraphy quotes, signatures, or pseudo-Devanagari inscriptions.
-  - ❌ NO watermarks, logos, or third-party branding.
-  - ❌ NO 3D rendering, CGI gloss, plastic skin, or Western medieval backdrops.
+## Standards referenced
+- `standards/art.md` — palette, framing, forbidden artifacts, prompts, audit, retries.
+- `standards/lineage.md` — Rishi / Monk / seeker appearance.
 
-## 2. Character Archetypes by Cultural Lineage
-
-- **Hindu / Vedic / Telugu Lore (Mahabharata, Ramayana, Puranas, Vemana, Chanakya, Vidura):**
-  - Authentic Hindu Sage (Rishi / Muni).
-  - Matted hair gathered in a Vedic *rishi jata* topknot.
-  - Flowing ascetic beard, serene and dignified expression.
-  - Simple cotton ascetic *dhoti* and natural *rudraksha* beads.
-  - Subtle *tilak* / *vibhuti* on forehead.
-  - Setting: Beneath an ancient Banyan or Peepal tree outside an ashram hermitage (*parnashala*).
-
-- **Buddhist / Zen Lore (Jataka Tales, Dhammapada, Akkosa Sutta):**
-  - Authentic Buddhist Monk (Bhikkhu).
-  - Shaved head, serene calm countenance, no beads or topknot.
-  - Simple monastic robe (*sanghati* / *kasaya*) draped over shoulder.
-  - Setting: Bamboo grove, stone meditation slab, quiet stream.
-
-## 3. Gemini Generation Protocol
-
-Always generate using the official Google Gemini image API (`gemini-3.1-flash-image` or configured Gemini image model) with `aspectRatio: '16:9'` and `imageSize: '2K'`.
-
-```python
-import os, requests, base64
-
-def generate_monk_art(prompt: str, output_path: str):
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        raise ValueError("GEMINI_API_KEY is required.")
-        
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image:generateContent?key={key}"
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "responseModalities": ["TEXT", "IMAGE"],
-            "imageConfig": {
-                "aspectRatio": "16:9",
-                "imageSize": "2K"
-            }
-        }
-    }
-    
-    res = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=120)
-    res.raise_for_status()
-    data = res.json()
-    
-    for cand in data.get("candidates", []):
-        for part in cand.get("content", {}).get("parts", []):
-            inline = part.get("inlineData") or part.get("inline_data")
-            if inline:
-                b64 = inline.get("data")
-                with open(output_path, "wb") as f:
-                    f.write(base64.b64decode(b64))
-                return output_path
-    raise RuntimeError("No image returned from Gemini API")
-```
-
-## 4. Mandatory Post-Generation Verification
-
-Every generated image MUST be visually inspected with `view_image` before committing:
-1. Verify character archetype matches lineage.
-2. Confirm canvas is full-bleed with no white/parchment border margin.
-3. Confirm absence of red stamps, watermarks, and text.
-4. If defective, re-roll immediately with strengthened negative constraints.
+## Red lines
+- Gemini models only; never pollinations.ai, Unsplash, stock, or scrapers.
+- Never commit an image without the 8/8 visual audit recorded in the tk note.
+- Never edit an image by hand to hide a defect (crop/paint over); regenerate.
