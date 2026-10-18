@@ -56,8 +56,9 @@ Section count: ≥ 3 `## ` headings [all]; ≥ 3 numbered `### N.` headings (str
 
 ## 4. Length
 
-- Body words (everything after frontmatter): **600–2200 [all]**; strict target
-  **900–2200**.
+- Body words (everything after frontmatter, counted by
+  `scripts/storylib.py:word_count`): strict posts **900–2200**; legacy posts
+  **500–2200**.
 
 ## 5. Language (binary tests)
 
@@ -78,7 +79,8 @@ Section count: ≥ 3 `## ` headings [all]; ≥ 3 numbered `### N.` headings (str
 Checked by `scripts/check_duplicate.py <post>`:
 - slug not used by another post;
 - date not used by another post (strict);
-- title word overlap (Jaccard, words ≥ 4 letters) with any other post < 0.5;
+- main-title overlap (text before `:`; words ≥ 4 letters minus stopwords;
+  overlap = shared / smaller set) with any other post < 0.5;
 - normalized `**Source:**` line not identical to another post's.
 
 Selection-time duplicate avoidance: `scripts/next_item.py` skips queue items
