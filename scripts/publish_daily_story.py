@@ -23,6 +23,7 @@ BOOKS_DIR = Path.home() / "books"
 ART_STYLE_GUIDE = REPO_ROOT / "ART_STYLE.md"
 AGENTS_GUIDE = REPO_ROOT / "AGENTS.md"
 TK_BIN = Path.home() / ".local" / "bin" / "tk"
+IMAGE_MODELS = ["gemini-3-pro-image", "gemini-3.1-flash-image"]  # primary, fallback (Gemini only)
 
 # Hardened prompt template: strictly full bleed, monochrome, zero seals/frames/text
 PROMPT_TEMPLATE = (
@@ -44,12 +45,22 @@ def generate_art_prompt(scene_details: str) -> str:
     return PROMPT_TEMPLATE.format(scene_details=scene_details)
 
 def generate_illustration(prompt: str, output_path: Path) -> Path:
-    """Generate high-resolution 16:9 monochrome illustration using Gemini 3.1 Flash Image."""
+    """Generate a 16:9 monochrome illustration, trying Gemini image models in order."""
+    last_err = None
+    for model in IMAGE_MODELS:
+        try:
+            return _generate_with_model(model, prompt, output_path)
+        except Exception as e:  # try next Gemini model; never external services
+            last_err = e
+            print(f"[monk-stories] {model} failed: {e}")
+    raise RuntimeError(f"All Gemini image models failed: {last_err}")
+
+def _generate_with_model(model: str, prompt: str, output_path: Path) -> Path:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable is missing!")
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
