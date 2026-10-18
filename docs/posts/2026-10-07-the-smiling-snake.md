@@ -14,7 +14,7 @@ tags:
 
 # The Smiling Snake in the Assembly: A Lesson from Vidura and Vemana
 
-![The Wandering Monk and the Serpent](../assets/images/posts/2026-10-07-the-smiling-snake.jpg)
+![The Vedic Rishi Beneath the Banyan Observing the Serpent](../assets/images/posts/2026-10-07-the-smiling-snake.jpg)
 
 A young courtier climbed the stone steps to the hermitage in the hills. His face was pale, his shoulders hunched with bitterness.
 

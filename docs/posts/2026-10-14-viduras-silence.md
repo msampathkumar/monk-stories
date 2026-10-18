@@ -1,13 +1,19 @@
 ---
-title: Vidura's Silence: Navigating the Toxic Court
 date: 2026-10-14
-author: Monk Stories
-categories: [Mahabharata, Office Politics]
+authors:
+  - monk
+categories:
+  - Office Politics
+  - Mahabharata
+tags:
+  - Toxic Leadership
+  - Strategic Silence
+  - Ancient Wisdom
 ---
 
 # Vidura's Silence: Navigating the Toxic Court
 
-![Vidura's Silence](../assets/images/posts/2026-10-14-viduras-silence.jpg)
+![Vidura Seated in Dignified Silence Beneath the Banyan](../assets/images/posts/2026-10-14-viduras-silence.jpg)
 
 Vidura, the wise counselor of Hastinapura, often found himself in a court filled with envy, ambition, and deceit. While others shouted to be heard or conspired in the shadows, Vidura practiced the art of silence.
 
