@@ -21,7 +21,7 @@ Rules:
 | [x] 2026-10-19 | the-talkative-tortoise | The Talkative Tortoise | Jataka Tales | Jataka Tales | Kacchapa Jataka, No. 215 (UNVERIFIED) | Tortoise | Speaking at the wrong moment destroys a rescue plan |
 | [x] 2026-10-20 | the-blue-jackal | The Blue Jackal | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) | Blue Jackal | Impostor leaders exposed by their own nature |
 | [x] 2026-10-21 | manthara-whisper | Manthara's Whisper to Kaikeyi | Ramayana | Valmiki Ramayana | Ayodhya Kanda | Manthara | The confidant who poisons a leader's judgment |
-| [ ] | the-parable-of-the-arrow | The Parable of the Poisoned Arrow | Buddhist Parables | Majjhima Nikaya | Cula-Malunkyovada Sutta, MN 63 | Malunkyaputta | Analysis paralysis while the incident burns |
+| [x] 2026-10-22 | the-parable-of-the-arrow | The Parable of the Poisoned Arrow | Buddhist Parables | Majjhima Nikaya | Cula-Malunkyovada Sutta, MN 63 | Malunkyaputta | Analysis paralysis while the incident burns |
 | [ ] | the-brahmin-and-the-three-thieves | The Brahmin and the Three Thieves | Panchatantra | Panchatantra | Book 3 (Kakolukiyam) | Three Thieves | Manufactured consensus and gaslighting |
 | [ ] | ekalavyas-thumb | Ekalavya's Thumb | Mahabharata | Mahabharata | Adi Parva | Ekalavya | Gatekeepers who demand your edge as tribute |
 | [ ] | the-parable-of-the-raft | The Parable of the Raft | Buddhist Parables | Majjhima Nikaya | Alagaddupama Sutta, MN 22 | Raft | Clinging to processes after they stop serving |
