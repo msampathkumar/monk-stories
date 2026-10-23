@@ -33,6 +33,7 @@ Layer A: `scripts/validate_image.py`. Layer B: the visual audit in §5.
 4. Watermarks or logos.
 5. Colour accents of any hue.
 6. Mixed archetypes (e.g. a shaved-head monk in a Rishi story).
+7. Macabre, gory, or absurd literalist scenes (e.g. arrows sticking out of bodies, gory surgeries, severed limbs, violent physical struggle). Metaphors must be depicted with contemplative restraint, dignity, and aesthetic poise (e.g. an unstrung bow resting against stone, a physician holding medicinal herbs, a quiet dialogue under bamboo).
 
 ## 4. Prompt formulas (copy verbatim; replace only `[SCENE DETAILS]`)
 

@@ -26,6 +26,9 @@ BANNED = [
     "ever-evolving", "game-changer", "game changer", "synergy",
     "navigate the complexities", "at the end of the day",
     "unlock your potential",
+    # Anti-Corporate/DevOps Slop (banned in strict mode)
+    "microservice", "blast radius", "database cluster", "deadlock",
+    "failover", "runbooks", "settlement pipeline",
 ]
 FORBIDDEN_BY_ARCHETYPE = {
     "rishi": {"text": ["buddhist", "bhikkhu", "shaved head"], "alt": ["monk"]},

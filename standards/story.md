@@ -66,6 +66,7 @@ Section count: ≥ 3 `## ` headings [all]; ≥ 3 numbered `### N.` headings (str
   "delve", "tapestry", "testament to", "in today's fast-paced",
   "ever-evolving", "game-changer", "game changer", "synergy",
   "navigate the complexities", "at the end of the day", "unlock your potential".
+- Anti-Corporate Slop & Jargon [strict]: Dialogue with the sage and narrative prose must NEVER be stuffed with forced DevOps or technical engineering jargon (e.g. "microservice", "blast radius", "runbooks", "database cluster", "failover", "settlement pipeline"). The workplace dilemma must be framed in timeless, universal executive/human leadership terms (operational crisis, committee paralysis, blame-shifting, ego-driven theoretical debate while real damage mounts).
 - No first-person narrator ("I" outside quoted dialogue is allowed only
   inside quotation marks) — Layer B rubric item.
 - Every practical rule (`### N.`) contains at least one concrete action verb
