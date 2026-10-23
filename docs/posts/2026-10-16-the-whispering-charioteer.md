@@ -54,19 +54,19 @@ When Karna shot an arrow that nearly took Arjuna's crown, Shalya minimized the f
 
 "In ancient statecraft," the Rishi continued, "this phenomenon is termed **Shalya-Vritti** (the conduct of the demoralizing charioteer).
 
-An open enemy on the battlefield is easy to address. You face them with shield raised and weapon drawn. But a *Shalya* sits inside your own vehicle. They share your banner, attend your daily standups, and draw from the same budget. Because they are ostensibly on your team, you drop your psychological defenses and allow their commentary to penetrate your subconscious."
+An open enemy on the battlefield is easy to address. You face them with shield raised and weapon drawn. But a *Shalya* sits inside your own vehicle. They share your banner, sit at your planning table, and draw from the same charter. Because they are ostensibly on your team, you drop your psychological defenses and allow their commentary to penetrate your subconscious."
 
 The Rishi identified the three unmistakable marks of modern *Shalya-Vritti* in professional life:
 
 ### 1. The Pre-Battle Chill
-Observe when the commentary occurs. A true advisor brings constructive critiques early—during planning sessions when designs can be adjusted. A *Shalya* delivers their demoralizing forecasts immediately prior to high-stakes execution—in the elevator before an executive pitch, thirty minutes before a product demo, or during the final dry run. Their timing is designed not to improve the work, but to rattle your composure.
+Observe when the commentary occurs. A true advisor brings constructive critiques early—during planning sessions when designs can be adjusted. A *Shalya* delivers their demoralizing forecasts immediately prior to high-stakes execution—in the corridor moments before the council convenes, minutes before a critical presentation, or during the final inspection walk. Their timing is designed not to improve the work, but to rattle your composure.
 
 ### 2. The Weaponized "Devil's Advocate"
 When confronted, practitioners of *Shalya-Vritti* invariably seek refuge behind the noble mask of pragmatism: *"I'm only being realistic; someone has to play devil's advocate."* But there is a profound distinction between rigorous risk assessment and chronic demoralization. Rigorous risk analysis pairs problems with solutions; *Shalya-Vritti* pairs problems with fatalism and helplessness.
 
 ### 3. Backhanded Reassurances
 They master the art of the poisoned concession:  
-> *"Don't take it too hard if the executive team rejects our pitch; everyone knows they rarely approve initiatives from our group anyway."*  
+> *"Don't take it too hard if the council rejects our designs; everyone knows the high ministers rarely approve initiatives from our guild anyway."*  
 By lowering the bar before you have even jumped, they provide a toxic permission structure for failure, quietly eroding the fierce standard of excellence required to win.
 
 ---
@@ -84,7 +84,7 @@ The Rishi held up four fingers, delivering the timeless counsel of strategic mas
 "Establish an operational boundary: *'If you identify a structural flaw, bring the engineering calculation that remedies it. If you bring only a prediction of doom, keep it for your private memoirs.'* Refuse to indulge unanchored pessimism. When they voice an unsubstantiated fear, ask calmly: *'What specific data point supports that conclusion, and what is your proposed mitigation?'* Without substance, their doubt evaporates under the light of logic."
 
 ### 3. Seal the Pre-Launch Hours
-"In the crucial twelve hours leading up to an executive review or major delivery, restrict communications strictly to logistical facts. Isolate your mental space. Do not permit casual debriefs or unstructured hallway chatter with cynical partners. Protect your psychological altitude as fiercely as a surgeon guards their sterile tools."
+"In the crucial twelve hours leading up to a major council review or critical delivery, restrict communications strictly to logistical facts. Isolate your mental space. Do not permit casual debriefs or unstructured hallway chatter with cynical partners. Protect your psychological altitude as fiercely as a surgeon guards their sterile tools."
 
 ### 4. Choose Your True Charioteer
 "Finally, Devadatta, reflect on the greatest contrast of the epic. Arjuna had Krishna; Karna had Shalya. A true charioteer does not flatter your ego, but they align your spirit with purpose, sharpen your clarity, and remind you of your duty when doubt creeps in. As you build your career and your teams, choose partners whose presence deepens your stillness, not those whose whispers stir the dust."

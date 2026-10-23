@@ -73,7 +73,7 @@ In a healthy organization, rigorous debate and dissenting data are welcomed as r
 Observe who gets promoted. If promotions flow to those who parrot executive opinions and conceal bad news rather than those who deliver enduring results, the institutional immune system is dead. You cannot heal an organism whose survival mechanism has turned against its own vital organs.
 
 ### 3. Conscientiousness is Weaponized as Leverage
-Narcissistic leaders instinctively prey upon the high conscientiousness of ethical subordinates. They know you care about the users, the junior engineers, and the project deadlines. They will pile impossible demands upon your shoulders, knowing you will sacrifice your health and boundaries rather than allow failure on your watch.
+Narcissistic leaders instinctively prey upon the high conscientiousness of ethical subordinates. They know you care about the people, the junior craftsmen, and the shared mission. They will pile impossible demands upon your shoulders, knowing you will sacrifice your health and boundaries rather than allow failure on your watch.
 
 ---
 

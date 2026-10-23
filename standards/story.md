@@ -45,7 +45,7 @@ tags:                     # 3–6 tags
 |---|---|---|
 | 1 | H1 [all] | Exactly one `# ` line; it is the first body line. Format `# <Title>: <Subtitle>`; ≤ 110 characters (strict). |
 | 2 | Image [all] | First non-blank line after H1 is `![<alt>](../assets/images/posts/<stem>.jpg)`; alt text ≥ 3 words; file exists. |
-| 3 | Part 1 — The Approach (strict) | Prose before the first `## `; ≥ 120 words; a **named** seeker brings a workplace-mirroring problem to the teacher (archetype per lineage). |
+| 3 | Part 1 — The Approach (strict) | Prose before the first `## `; ≥ 120 words; a **named** seeker grounded naturally in the ancient world (e.g. guild-master, caravan leader, court treasurer, minister, physician, royal counselor, master artisan) brings an organizational dilemma (palace intrigue, merchant syndicate corruption, cartel collusion, manufactured consensus, backstabbing, flatterers) to the teacher (archetype per lineage). Strictly no modern corporate titles or tech jargon. |
 | 4 | Part 2 — The Ancient Story (strict) | A `## ` section that retells the classical story or verse. |
 | 5 | Part 3 — The Workplace Mirror (strict) | A `## ` section mapping the story to modern work. |
 | 6 | Part 4 — Practical Rules (strict) | A `## ` section with **≥ 3** numbered `### 1. …`, `### 2. …`, `### 3. …` sub-headings. |
@@ -66,7 +66,7 @@ Section count: ≥ 3 `## ` headings [all]; ≥ 3 numbered `### N.` headings (str
   "delve", "tapestry", "testament to", "in today's fast-paced",
   "ever-evolving", "game-changer", "game changer", "synergy",
   "navigate the complexities", "at the end of the day", "unlock your potential".
-- Anti-Corporate Slop & Jargon [strict]: Dialogue with the sage and narrative prose must NEVER be stuffed with forced DevOps or technical engineering jargon (e.g. "microservice", "blast radius", "runbooks", "database cluster", "failover", "settlement pipeline"). The workplace dilemma must be framed in timeless, universal executive/human leadership terms (operational crisis, committee paralysis, blame-shifting, ego-driven theoretical debate while real damage mounts).
+- Anti-Corporate Slop & Modern Jargon [all / strict]: Narrative prose, setting descriptions, and character dialogue must NEVER contain anachronistic modern corporate titles or tech jargon (e.g. "director", "vice president", "VP", "executive committee", "chief of staff", "manager", "compliance director", "audit methodology", "rail corridor", "platform", "infrastructure", "cloud", "software", "pull request", "microservice", "blast radius", "database cluster", "failover", "runbooks", "settlement pipeline", "sprint", "scrum", "1:1", "slack", "email"). The narrative world must remain strictly authentic to its setting: seekers are historical/timeless figures (guild-masters, caravan leaders, treasurers, ministers, royal counselors, physicians, master artisans, magistrates) facing timeless organizational and political dynamics (palace intrigue, syndicate corruption, cartel collusion, sycophancy, manufactured consensus, sabotage, betrayal) that carry profound allegorical weight for modern leaders. The teacher retells ancient parables; the reflections and practical rules translate those universal dynamics into clear, actionable leadership principles without breaking character or polluting the narrative with jarring buzzwords.
 - No first-person narrator ("I" outside quoted dialogue is allowed only
   inside quotation marks) — Layer B rubric item.
 - Every practical rule (`### N.`) contains at least one concrete action verb

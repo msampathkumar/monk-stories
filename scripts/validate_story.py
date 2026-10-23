@@ -135,6 +135,17 @@ def validate(path, force_strict=False, repo_check=True):
         opening = "\n".join(lines[start:first_h2])
         if sl.word_count(opening) < 120:
             fail(f"opening scene before first '## ' has {sl.word_count(opening)} words (< 120)")
+        opening_low = opening.lower()
+        forbidden_in_approach = [
+            "director", "vice president", "vp", "executive committee",
+            "manager", "chief of staff", "software", "infrastructure",
+            "cloud", "platform", "rail corridor", "pull request",
+            "compliance director", "audit methodology", "cross-docking",
+            "high performer",
+        ]
+        for term in forbidden_in_approach:
+            if re.search(r"\b" + re.escape(term) + r"\b", opening_low):
+                fail(f"opening scene has modern corporate/tech term: '{term}' (seeker must be grounded naturally in the ancient world)")
         src_idx = next((i for i, ln in enumerate(lines) if ln.startswith("**Source:**")), None)
         last_h3 = max((i for i, ln in enumerate(lines) if ln.startswith("### ")), default=-1)
         if src_idx is None:

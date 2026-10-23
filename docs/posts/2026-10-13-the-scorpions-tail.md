@@ -24,7 +24,7 @@ Beneath the sprawling branches of a massive banyan tree, the venerable Rishi sat
 
 Beside the granite step rested an earthen water vessel, and nearby on the dry soil, an errant scorpion crawled slowly past the rim before settling motionless in the dust.
 
-"You carry a heavy cloud this morning, Madhava," the Sage said softly, opening his eyes with deep calm. "Has the harvest failed, or has the treasury treasury ledger fallen into disorder?"
+"You carry a heavy cloud this morning, Madhava," the Sage said softly, opening his eyes with deep calm. "Has the harvest failed, or has the treasury ledger fallen into disorder?"
 
 "Neither, Guruji," Madhava replied, bowing with clasped hands before taking a seat upon the lower stone slab. "The numbers are flawless, yet my work is unraveling. In our department, there is an official named Varun. For two years, I believed his friction with me was merely professional—a difference in style, a misunderstanding of priorities. I went out of my way to accommodate him. I credited him in joint reports, listened patiently to his grievances, and even defended him when others questioned his performance. I thought reasonable benevolence would soften his rancor."
 
@@ -87,14 +87,14 @@ You cannot cure venom with milk, nor can you rehabilitate a malicious competitor
 Because the malicious actor’s poison is dispersed across all interactions, verbal agreements and casual hallway conversations are vulnerabilities.
 - **Transcribe Commitments:** Follow up every interaction with concise, neutral written confirmations.
 - **Narrow the Surface Area:** Never engage in informal, off-the-record debriefs where your words can be weaponized out of context.
-- **Maintain Procedural Rigor:** Keep all project reviews anchored in indisputable metrics and visible, transparent repositories.
+- **Maintain Procedural Rigor:** Keep all project reviews anchored in indisputable metrics and visible, transparent records.
 
 ### 3. Starve the Drama Loop (Stoic Detachment)
 The primary objective of a toxic political actor is emotional destabilization. When they provoke you into an indignant outburst, they successfully drag you onto a corrupted board where optics supersede facts. 
 As Mahatma Vidura taught, the mark of true wisdom is remaining unperturbed on the surface while securing your position underneath. Treat their provocations with flat, unreactive professionalism. When you refuse to provide emotional fuel, their attacks fail to achieve internal leverage.
 
 ### 4. Build Multi-Node Coalition Defenses
-A lone operator who relies solely on the quality of their work is uniquely vulnerable to whispered campaigns. Ensure your contributions are directly visible to cross-functional stakeholders, sponsors, and leadership circles. When your reputation and output are corroborated across multiple independent nodes, an isolated saboteur's venom cannot contaminate the wider ecosystem.
+A lone operator who relies solely on the quality of their work is uniquely vulnerable to whispered campaigns. Ensure your contributions are directly visible to peers, council elders, and leaders across adjacent departments. When your reputation and output are corroborated across multiple independent observers, an isolated saboteur's venom cannot contaminate the wider ecosystem.
 
 ---
 

@@ -17,7 +17,7 @@ tags:
 
 ![{{ALT_TEXT_ARCHETYPE_AND_SCENE}}](../assets/images/posts/{{DATE}}-{{SLUG}}.jpg)
 
-{{PART_1_APPROACH: 150-350 words. Setting line (rishi: forest hermitage beneath the banyan; monk: bamboo grove / monastery). A NAMED seeker (e.g. a senior engineer, product lead, or minister with an Indian name) arrives and describes one specific workplace incident in dialogue: who did what, what it cost. The teacher (archetype from next_item.py) asks one question. End with the seeker's direct question to the teacher.}}
+{{PART_1_APPROACH: 150-350 words. Setting line (rishi: forest hermitage beneath the banyan; monk: bamboo grove / monastery). A NAMED seeker grounded naturally in the ancient world (e.g. guild-master, caravan leader, court treasurer, minister, physician, royal counselor, master artisan) arrives and describes one specific organizational conflict in dialogue (palace intrigue, merchant syndicate corruption, cartel collusion, manufactured consensus, flatterers, backstabbing): who did what, what it cost. STRICT TIMELINE CONSISTENCY: NO modern corporate titles (VP, director, manager, chief of staff) or tech/modern jargon (cloud, platform, software, email, rail). The teacher (archetype from next_item.py) asks one question. End with the seeker's direct question to the teacher.}}
 
 ---
 

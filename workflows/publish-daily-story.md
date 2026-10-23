@@ -44,7 +44,7 @@ All commands run from `/home/sampathm/github/monk-stories`.
 13. **Notify.** Final reply = exactly two lines: `<Title>` and `https://msampathkumar.github.io/monk-stories/posts/<date>-<slug>/` (URL is **UNVERIFIED** — site not deployed as of 2026-10-18; see `standards/story.md` §7).
 
 ## Rubric (all must be YES; quote evidence)
-1. The seeker is named and the opening states one concrete workplace incident (who did what, and the cost)?
+1. The seeker is named, grounded naturally in the ancient world (no modern corporate titles or tech jargon), and the opening states one concrete organizational incident (who did what, and the cost)?
 2. The teacher is the `<archetype>` throughout (no Rishi in a monk post, no monk in a rishi post)?
 3. Every event in the ancient-story section belongs to the named source; no invented verse numbers or quotes presented as exact?
 4. Each beat of the ancient story is mapped to a named workplace behaviour in the mirror section?
