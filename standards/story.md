@@ -45,10 +45,10 @@ tags:                     # 3–6 tags
 |---|---|---|
 | 1 | H1 [all] | Exactly one `# ` line; it is the first body line. Format `# <Title>: <Subtitle>`; ≤ 110 characters (strict). |
 | 2 | Image [all] | First non-blank line after H1 is `![<alt>](../assets/images/posts/<stem>.jpg)`; alt text ≥ 3 words; file exists. |
-| 3 | Part 1 — The Approach (strict) | Prose before the first `## `; ≥ 120 words; a **named** seeker grounded naturally in the ancient world (e.g. guild-master, caravan leader, court treasurer, minister, physician, royal counselor, master artisan) brings an organizational dilemma (palace intrigue, merchant syndicate corruption, cartel collusion, manufactured consensus, backstabbing, flatterers) to the teacher (archetype per lineage). Strictly no modern corporate titles or tech jargon. |
+| 3 | Part 1 — The Approach (strict) | Prose before the first `## `; ≥ 120 words; a **named** seeker of the ancient world (e.g. guild-master, caravan leader, court treasurer, minister, physician, royal counselor, master artisan) brings one timeless human conflict (palace intrigue, a rigged guild council, flatterers, a stolen design, a rival's whispers) to the teacher (archetype per lineage). |
 | 4 | Part 2 — The Ancient Story (strict) | A `## ` section that retells the classical story or verse. |
-| 5 | Part 3 — The Workplace Mirror (strict) | A `## ` section mapping the story to modern work. |
-| 6 | Part 4 — Practical Rules (strict) | A `## ` section with **≥ 3** numbered `### 1. …`, `### 2. …`, `### 3. …` sub-headings. |
+| 5 | Part 3 — The Teaching (strict) | A `## ` section where the teacher names the patterns the story reveals, using only the story's own world (courts, councils, guilds, caravans, monasteries, villages, ledgers, seals, messengers). The reader draws the link to their own life; the post never does it for them. |
+| 6 | Part 4 — The Counsel (strict) | A `## ` section with **≥ 3** numbered `### 1. …`, `### 2. …`, `### 3. …` sub-headings: the teacher's concrete, doable advice, expressed in-world (e.g. "set your tally down in writing before the council sits, and keep a sealed copy"). |
 | 7 | Source line (strict) | A line `**Source:** <Text>, <locator>` after the last `### ` heading. `<Text>` names the classical work (e.g. *Panchatantra*, *Jataka Tales*); `<locator>` = book / parva / kanda / verse / Jataka number. Write `locator UNVERIFIED` if you cannot confirm it. |
 | 8 | Part 5 — The Provocation (strict) | The **last non-blank line** of the file is a blockquote `> *"…"*`, ≤ 45 words. |
 
@@ -66,12 +66,20 @@ Section count: ≥ 3 `## ` headings [all]; ≥ 3 numbered `### N.` headings (str
   "delve", "tapestry", "testament to", "in today's fast-paced",
   "ever-evolving", "game-changer", "game changer", "synergy",
   "navigate the complexities", "at the end of the day", "unlock your potential".
-- Anti-Corporate Slop & Modern Jargon [all / strict]: Narrative prose, setting descriptions, and character dialogue must NEVER contain anachronistic modern corporate titles or tech jargon (e.g. "director", "vice president", "VP", "executive committee", "chief of staff", "manager", "compliance director", "audit methodology", "rail corridor", "platform", "infrastructure", "cloud", "software", "pull request", "microservice", "blast radius", "database cluster", "failover", "runbooks", "settlement pipeline", "sprint", "scrum", "1:1", "slack", "email"). The narrative world must remain strictly authentic to its setting: seekers are historical/timeless figures (guild-masters, caravan leaders, treasurers, ministers, royal counselors, physicians, master artisans, magistrates) facing timeless organizational and political dynamics (palace intrigue, syndicate corruption, cartel collusion, sycophancy, manufactured consensus, sabotage, betrayal) that carry profound allegorical weight for modern leaders. The teacher retells ancient parables; the reflections and practical rules translate those universal dynamics into clear, actionable leadership principles without breaking character or polluting the narrative with jarring buzzwords.
+- **Fully in-world [strict and posts dated ≥ 2026-10-13]:** the whole body —
+  opening, story, teaching, counsel, closing, and every heading — stays inside
+  the ancient setting. No modern word anywhere, and no line like "in modern
+  councils" or "in your career" that steps out to the present day. The lesson
+  stays sharp; the reader makes the connection. The validator's
+  `MODERN_TERMS` list in `scripts/validate_story.py` is authoritative
+  (e.g. manager, executive, meeting, email, stakeholder, deadline, career,
+  colleague, organizational, professional, modern).
 - No first-person narrator ("I" outside quoted dialogue is allowed only
   inside quotation marks) — Layer B rubric item.
-- Every practical rule (`### N.`) contains at least one concrete action verb
-  phrase the reader can do this week (e.g. "email a written summary",
-  "decline the meeting") — Layer B rubric item.
+- Every counsel rule (`### N.`) contains at least one concrete action the
+  seeker can take tomorrow, phrased in-world (e.g. "write the terms on a palm
+  leaf and have both parties seal it", "refuse the summons until the elders
+  are present") — Layer B rubric item.
 - Quoted verses: attribute to the work named in the Source line; never invent
   verse numbers (use `UNVERIFIED`).
 

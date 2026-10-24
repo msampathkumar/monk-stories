@@ -1,8 +1,9 @@
 # AGENTS.md — Monk Stories
 
 ## Mission
-Publish one parable per day from classical Indian and Buddhist lore, retold for
-modern workplace politics, with one monochrome ink-wash illustration.
+Publish one parable per day from classical Indian and Buddhist lore about
+power, loyalty, and rivalry, told fully inside its ancient world (the reader
+draws the link to their own work), with one monochrome ink-wash illustration.
 Static site: MkDocs Material (`mkdocs.yml`), posts in `docs/posts/`.
 
 Audience: working professionals dealing with office politics; owner Sampath
@@ -13,7 +14,7 @@ Kumar (msampathkumar).
 validation**, starting 2026-10-18 (target proposed 2026-10-18; owner to confirm).
 - DoD per day: `python3 scripts/validate_story.py <post>` exit 0,
   `python3 scripts/validate_image.py <image>` exit 0, visual audit 8/8,
-  rubric 8/8, `mkdocs build` exit 0, commit pushed.
+  rubric 9/9, `mkdocs build` exit 0, commit pushed.
 - Milestone count: number of `docs/posts/*.md` dated ≥ 2026-10-18 that pass
   `validate_story.py` — target 30.
 - Legacy posts (before 2026-10-18) only need the `[all]` rules in

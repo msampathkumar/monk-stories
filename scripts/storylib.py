@@ -10,6 +10,7 @@ LINEAGE_MD = REPO_ROOT / "standards" / "lineage.md"
 QUEUE_MD = REPO_ROOT / "standards" / "story-queue.md"
 
 STRICT_CUTOFF = "2026-10-18"  # posts dated on/after this pass all rules
+IN_WORLD_CUTOFF = "2026-10-13"  # posts dated on/after this get the modern-term scan
 POST_NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$")
 
 

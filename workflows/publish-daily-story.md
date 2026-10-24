@@ -44,23 +44,24 @@ All commands run from `/home/sampathm/github/monk-stories`.
 13. **Notify.** Final reply = exactly two lines: `<Title>` and `https://msampathkumar.github.io/monk-stories/posts/<date>-<slug>/` (URL is **UNVERIFIED** — site not deployed as of 2026-10-18; see `standards/story.md` §7).
 
 ## Rubric (all must be YES; quote evidence)
-1. The seeker is named, grounded naturally in the ancient world (no modern corporate titles or tech jargon), and the opening states one concrete organizational incident (who did what, and the cost)?
+1. The seeker is named, belongs to the ancient world, and the opening states one concrete incident (who did what, and the cost)?
 2. The teacher is the `<archetype>` throughout (no Rishi in a monk post, no monk in a rishi post)?
 3. Every event in the ancient-story section belongs to the named source; no invented verse numbers or quotes presented as exact?
-4. Each beat of the ancient story is mapped to a named workplace behaviour in the mirror section?
-5. Every `### N.` rule contains an action the reader can do this week? (quote one per rule)
-6. No first-person narrator outside quoted dialogue?
-7. The closing blockquote uses the story's central image (the `<key>` creature/object)?
-8. `<theme>` differs from the themes of the last 3 posts (`ls docs/posts/2026-* | tail -3`, read their H1s)?
+4. Each beat of the ancient story is named as a pattern in the teaching section, shown inside the story's own world?
+5. Read top to bottom: is there no sentence, heading, or rule that jumps to the present day (no "in modern…", no office, career, or meeting talk)?
+6. Every `### N.` rule contains an in-world action the seeker can take tomorrow? (quote one per rule)
+7. No first-person narrator outside quoted dialogue?
+8. The closing blockquote uses the story's central image (the `<key>` creature/object)?
+9. `<theme>` differs from the themes of the last 3 posts (`ls docs/posts/2026-* | tail -3`, read their H1s)?
 
 ## Failure handling
 - `next_item.py` exit 10 → already published today; do nothing.
 - Image API error/timeout → retries and limits in `workflows/generate-illustration.md`; never publish without an image.
-- Validator FAIL on word count → expand/trim Part 2 or Part 3 only.
+- Validator FAIL on word count → expand/trim Part 2 or Part 3 (teaching) only.
 - Validator FAIL on lineage word → replace the word with the archetype's term from `standards/lineage.md`.
 - mkdocs warning about `blog` / MkDocs 2.0 banner → informational; ignore if exit code is 0.
 - Any step still failing after 2 loops → `tk add-note <id> "BLOCKED: <step>: <last FAIL line>"`, leave ticket open, do not commit, reply "Monk Stories BLOCKED: <reason>". STOP.
 
 ## Definition of Done
-- `validate_story.py <post>` exit 0; `validate_image.py <image>` exit 0; visual audit 8/8; rubric 8/8.
+- `validate_story.py <post>` exit 0; `validate_image.py <image>` exit 0; visual audit 8/8; rubric 9/9.
 - `mkdocs build` exit 0; queue row marked; ticket closed; commit pushed to `origin/master`; two-line notification sent.

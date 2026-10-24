@@ -26,10 +26,36 @@ BANNED = [
     "ever-evolving", "game-changer", "game changer", "synergy",
     "navigate the complexities", "at the end of the day",
     "unlock your potential",
-    # Anti-Corporate/DevOps Slop (banned in strict mode)
-    "microservice", "blast radius", "database cluster", "deadlock",
-    "failover", "runbooks", "settlement pipeline",
 ]
+# Modern words that pull the reader out of the ancient setting. Single source
+# of truth (standards/story.md section 5). Regexes, matched case-insensitively
+# with word boundaries against the WHOLE body (headings included) of strict
+# posts and posts dated >= sl.IN_WORLD_CUTOFF. Some natural words are banned
+# only in their modern sense ("the board" yes, a ship's board no; "cloud"
+# only in tech phrases) so ancient imagery stays usable.
+MODERN_TERMS = [
+    r"managers?", r"management", r"directors?", r"vice[- ]presidents?", r"vps?",
+    r"executives?", r"corporate", r"corporations?", r"compan(?:y|ies)",
+    r"offices?", r"e-?mails?", r"meetings?", r"slides?", r"slide decks?",
+    r"decks?", r"stakeholders?", r"kpis?", r"deadlines?", r"quarterly",
+    r"promotions?", r"hr", r"boss(?:es)?", r"team leads?", r"engineers?",
+    r"engineering", r"software", r"the cloud", r"cloud (?:computing|provider|platform|service)s?",
+    r"platforms?", r"infrastructure", r"sprints?", r"roadmaps?", r"start-?ups?",
+    r"ceos?", r"ctos?", r"cfos?", r"the board", r"board meetings?", r"board of",
+    r"boardrooms?", r"organi[sz]ations?", r"organi[sz]ational(?:ly)?",
+    r"workplaces?", r"colleagues?", r"careers?", r"professionals?",
+    r"professionally", r"modern", r"chief of staff", r"memo(?:randum|randa|s)?",
+    r"employees?", r"spreadsheets?", r"dashboards?", r"deliverables?",
+    r"inbox(?:es)?", r"pull requests?", r"microservices?", r"blast radius",
+    r"database", r"failover", r"runbooks?", r"pipelines?", r"1:1", r"one-on-ones?",
+    r"slack", r"scrum", r"high performers?", r"audit methodology", r"rail corridor",
+]
+MODERN_RE = re.compile(r"\b(?:" + "|".join(MODERN_TERMS) + r")\b", re.IGNORECASE)
+
+
+def modern_terms_in(text):
+    """Sorted unique modern terms found in text (lowercased)."""
+    return sorted({m.group(0).lower() for m in MODERN_RE.finditer(text)})
 FORBIDDEN_BY_ARCHETYPE = {
     "rishi": {"text": ["buddhist", "bhikkhu", "shaved head"], "alt": ["monk"]},
     "monk": {"text": ["rishi", "rudraksha", "tilak", "jata"], "alt": []},
@@ -135,17 +161,6 @@ def validate(path, force_strict=False, repo_check=True):
         opening = "\n".join(lines[start:first_h2])
         if sl.word_count(opening) < 120:
             fail(f"opening scene before first '## ' has {sl.word_count(opening)} words (< 120)")
-        opening_low = opening.lower()
-        forbidden_in_approach = [
-            "director", "vice president", "vp", "executive committee",
-            "manager", "chief of staff", "software", "infrastructure",
-            "cloud", "platform", "rail corridor", "pull request",
-            "compliance director", "audit methodology", "cross-docking",
-            "high performer",
-        ]
-        for term in forbidden_in_approach:
-            if re.search(r"\b" + re.escape(term) + r"\b", opening_low):
-                fail(f"opening scene has modern corporate/tech term: '{term}' (seeker must be grounded naturally in the ancient world)")
         src_idx = next((i for i, ln in enumerate(lines) if ln.startswith("**Source:**")), None)
         last_h3 = max((i for i, ln in enumerate(lines) if ln.startswith("### ")), default=-1)
         if src_idx is None:
@@ -160,6 +175,13 @@ def validate(path, force_strict=False, repo_check=True):
             fail('last non-blank line must be a closing blockquote: > *"..."*')
         elif sl.word_count(last) > 45:
             fail(f"closing blockquote has {sl.word_count(last)} words (> 45)")
+
+    # --- fully in-world (strict, or dated >= IN_WORLD_CUTOFF): whole body
+    if strict or date >= sl.IN_WORLD_CUTOFF:
+        for i, ln in enumerate(lines, 1):
+            found = modern_terms_in(ln)
+            if found:
+                fail(f"body line {i}: modern term(s) {found} break the ancient setting")
 
     # --- language [all]
     if "{{" in text or "}}" in text:
