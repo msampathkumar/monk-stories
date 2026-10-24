@@ -16,7 +16,7 @@ tags:
 
 # The Whispering Charioteer: Silencing the Doubt That Rides Beside You
 
-![Vedic Sage Instructing Disciple on the Psychology of the Whispering Charioteer](../assets/images/posts/2026-10-16-the-whispering-charioteer.jpg)
+![Vedic Sage Instructing Disciple on the Nature of the Whispering Charioteer](../assets/images/posts/2026-10-16-the-whispering-charioteer.jpg)
 
 The afternoon sun filtered through the dense foliage of the sacred banyan tree, casting intricate lace-like shadows across the ashram courtyard. Devadatta, an ambitious guild master overseeing the great new gateway commissioned for the imperial capital, sat with his shoulders slumped and hands clenched in frustration.
 
@@ -24,7 +24,7 @@ Beside the granite veranda sat the venerable Rishi, calm and centered. His silve
 
 "You look as though an arrow pierced your armor before the duel even began, Devadatta," the Rishi observed quietly.
 
-"Master," Devadatta spoke with bitter weariness. "The gateway is nearly finished. Our measurements are sound, our stonework is flawless, and the imperial inspection takes place in three days. Yet my spirit feels hollowed out. The drain comes not from our competitors, nor from the demands of the emperor, but from the man who stands beside me: my deputy and partner in the commission, Varuna."
+"Master," Devadatta spoke with bitter weariness. "The gateway is nearly finished. Our measurements are sound, our stonework is flawless, and the imperial inspection takes place in three days. Yet my spirit feels hollowed out. The drain comes not from our rivals, nor from the demands of the emperor, but from the man who stands beside me: my deputy and partner in the commission, Varuna."
 
 Devadatta exhaled sharply. "Varuna is brilliant, yet whenever we near a crucial day, he begins his subtle drip of doubt. Yesterday, as we reviewed our final structural plans, he sighed and remarked: *'The imperial inspectors were trained under the legendary master architects of Mathura. They have torn far greater designs than ours to shreds. Let us hope they show mercy to our provincial efforts.'* When I proposed our new way of vaulting, he muttered that failure would ruin our reputations forever. He doesn't openly rebel; he simply bleeds my confidence drop by drop. By the time I stand before the inspectors, my palms are cold and my voice wavers. How do I fight an adversary who shares my own chariot?"
 

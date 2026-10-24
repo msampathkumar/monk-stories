@@ -16,7 +16,7 @@ tags:
 
 # The Scorpion’s Tail: Vemana's Warning on the Envious Courtier
 
-![The Vedic Rishi Instructing Disciple on the Nature of Venom and the Full-Bodied Malice of Toxic Courtiers](../assets/images/posts/2026-10-13-the-scorpions-tail.jpg)
+![The Vedic Rishi Instructing Disciple on the Nature of Venom and the Malice of Envious Courtiers](../assets/images/posts/2026-10-13-the-scorpions-tail.jpg)
 
 The early morning sunlight filtered through the ancient canopy of the hermitage, casting soft, dappled shadows across the stone courtyard. Madhava, a seasoned administrator from the imperial revenue registry, ascended the path with heavy, hesitant steps. His shoulders were slumped, his face lined with the deep fatigue that stems not from long hours of labor, but from steady, unexplained sabotage by someone close at hand.
 

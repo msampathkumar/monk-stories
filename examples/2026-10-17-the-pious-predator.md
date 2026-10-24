@@ -17,7 +17,7 @@ tags:
 
 # The Pious Predator: Unmasking the False Rescuer in a Season of Upheaval
 
-![Vedic Sage Instructing Disciple on the Psychology of the Pious Predator](../assets/images/posts/2026-10-17-the-pious-predator.jpg)
+![Vedic Sage Instructing Disciple on the Nature of the Pious Predator](../assets/images/posts/2026-10-17-the-pious-predator.jpg)
 
 The forest hermitage rested in the quiet embrace of the afternoon breeze. Dry leaves rustled beneath the ancient banyan tree, whose aerial roots dropped like pillars of weathered bronze into the fertile earth. Anil, a master builder of the imperial merchant guild, sat upon a woven reed mat with his head lowered and his jaw tightly set. His eyes burned with the stinging disbelief of a man who had not been defeated by an enemy, but betrayed by an apparent savior.
 

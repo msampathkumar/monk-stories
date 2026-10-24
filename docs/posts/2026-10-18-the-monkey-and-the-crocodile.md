@@ -20,7 +20,7 @@ tags:
 
 The morning sun filtered through the dense canopy of the forest hermitage, casting long patterns of light across the roots of the ancient banyan tree. Raghav, a master caravan surveyor and chief route-keeper of a great merchant guild, sat motionless upon a grass mat near the threshold of the thatched hut. His hands were clenched upon his knees, his jaw set tight, and his gaze fixed upon the dusty ground. The quiet hum of cicadas filled the clearing, but inside him churned the acute exhaustion of a sudden, calculated betrayal.
 
-Across from him sat the venerable Rishi, still and observant. The sage's silver beard rested against an unstitched cotton dhoti, his matted locks were bound in a traditional Vedic *jata* topknot, and beads of natural rudraksha encircled his wrists. A faint line of sacred ash rested across his brow. He watched the younger man for several minutes before speaking.
+Across from him sat the venerable Rishi, still and observant. The sage's silver beard rested against an unstitched cotton dhoti, his matted locks were bound in a traditional Vedic *jata* topknot, and beads of natural rudraksha encircled his wrists. A faint line of sacred ash rested across his brow. He watched the younger man for a long while before speaking.
 
 "You sit like an archer whose closest companion stepped behind him and cut the bowstring," the Rishi said softly.
 
@@ -48,7 +48,7 @@ The Rishi listened with calm equanimity. He pointed with an open hand toward the
 
 "Unable to bear the silence, the crocodile confessed the grim reality: *'Forgive me, Raktamukha. There is no feast. My wife demands to eat your heart, believing it to be sweeter than all fruits. I am carrying you to your death.'*"
 
-"Consider the monkey's position," the Rishi remarked. "He was in the middle of a vast ocean, unable to swim, clinging to the back of an apex predator. If he had screamed in terror, the crocodile would have submerged and drowned him on the spot. If he had attacked the crocodile with teeth and claws, the armored beast would have rolled and devoured him in seconds. Blind rage and paralyzed panic both meant immediate death."
+"Consider the monkey's position," the Rishi remarked. "He was in the middle of a vast ocean, unable to swim, clinging to the back of an apex predator. If he had screamed in terror, the crocodile would have submerged and drowned him on the spot. If he had attacked the crocodile with teeth and claws, the armored beast would have rolled and devoured him in a moment. Blind rage and paralyzed panic both meant immediate death."
 
 "Instead, Raktamukha summoned the highest virtue of statecraft: *pratyutpannamatitva*—instantaneous presence of mind. He did not flinch, weep, or accuse. He burst into an affectionate laugh."
 

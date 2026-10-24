@@ -16,7 +16,7 @@ tags:
 
 # The Indigo Coat: How Borrowed Authority Crumbles When Instinct Takes Over
 
-![Vedic Sage Instructing Disciple on the Psychology of the Blue Jackal](../assets/images/posts/2026-10-20-the-blue-jackal.jpg)
+![Vedic Sage Instructing Disciple on the Nature of the Blue Jackal](../assets/images/posts/2026-10-20-the-blue-jackal.jpg)
 
 The late morning sunlight drifted through the canopy of the forest hermitage, tracing intricate webs of gold upon the earthen courtyard. Beneath the sprawling limbs of an ancient banyan tree, the air carried the sharp fragrance of dry leaves and sacred samidha wood. Varun, a master stone-mason and chief builder of the capital's royal guild of masons, sat upon a coarse grass mat with his shoulders hunched and his hands clenched tightly against his knees. The tight, bitter lines around his mouth betrayed the exhaustion of someone who had watched an unqualified peer seize absolute command through theatrical deception.
 

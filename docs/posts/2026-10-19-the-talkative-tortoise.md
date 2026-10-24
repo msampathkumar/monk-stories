@@ -16,7 +16,7 @@ tags:
 
 # The Clamped Jaw: How One Word at the Wrong Moment Undoes a Rescue
 
-![The Monk Instructing a Disciple in a Bamboo Grove on the Psychology of the Talkative Tortoise](../assets/images/posts/2026-10-19-the-talkative-tortoise.jpg)
+![The Monk Instructing a Disciple in a Bamboo Grove on the Nature of the Talkative Tortoise](../assets/images/posts/2026-10-19-the-talkative-tortoise.jpg)
 
 The morning mist drifted quietly through the bamboo grove, parting around the stone meditation terrace of the monastery. Tall green stalks swayed in the cool mountain wind, whispering against one another in gentle rhythm. Rohan, a master surveyor and chief keeper of the river granary lock-gates for the imperial boatmen's guild, sat upon the smooth granite step with his shoulders slumped and his hands trembling in his lap. The hollow ache of self-inflicted ruin shadowed his eyes.
 
@@ -24,7 +24,7 @@ Across from him sat the Monk, peaceful and composed in his saffron Kasaya robe d
 
 "You bear the grief of a traveler who was carried across an abyss by wings, only to leap into the canyon by his own choice, Rohan," the Monk remarked gently.
 
-Rohan pressed his knuckles into his forehead, exhaling a shuddering breath. "Master, three days ago, the central river lock-gates jammed at the height of the harvest, when the barges were heaviest. The canal backed up, several cargo barges took on water, and the grand council of merchants convened an emergency tribunal of inquiry. I was directly accused of negligence. Yet two respected elders of the guild—our chief warden of waterways, Arjun, and the overseer of stores, Nandita—stepped forward to champion my defense. They spent the entire night inspecting the timber winches and canal seals, realized the failure was caused by rotten hemlock logs delivered by an upstream timber contractor, and agreed to escort me through the tribunal."
+Rohan pressed his knuckles into his forehead, exhaling a shuddering breath. "Master, three days ago, the central river lock-gates jammed at the height of the harvest, when the barges were heaviest. The canal backed up, several cargo barges took on water, and the grand council of merchants hastily called a tribunal of inquiry. I was directly accused of negligence. Yet two respected elders of the guild—our chief warden of waterways, Arjun, and the overseer of stores, Nandita—stepped forward to champion my defense. They spent the entire night inspecting the timber winches and canal seals, realized the failure was caused by rotten hemlock logs delivered by an upstream timber contractor, and agreed to escort me through the tribunal."
 
 Rohan swallowed the dryness in his throat. "Before entering the council hall, Arjun took me aside and gave me one absolute command: *'Rohan, keep your jaws clamped shut. Nandita and I have already spoken with the elders. We will answer every hostile question, absorb the anger of the merchants, and present the repairs. No matter what provocation or insult is thrown across the floor, do not utter a single syllable. Let us carry you across.'*"
 
