@@ -23,7 +23,7 @@ Rules:
 | [x] 2026-10-21 | manthara-whisper | Manthara's Whisper to Kaikeyi | Ramayana | Valmiki Ramayana | Ayodhya Kanda | Manthara | The confidant who poisons a leader's judgment |
 | [x] 2026-10-22 | the-parable-of-the-arrow | The Parable of the Poisoned Arrow | Buddhist Parables | Majjhima Nikaya | Cula-Malunkyovada Sutta, MN 63 | Malunkyaputta | Analysis paralysis while the incident burns |
 | [x] 2026-10-23 | the-brahmin-and-the-three-thieves | The Brahmin and the Three Thieves | Panchatantra | Panchatantra | Book 3 (Kakolukiyam) | Three Thieves | Manufactured consensus and gaslighting |
-| [ ] | ekalavyas-thumb | Ekalavya's Thumb | Mahabharata | Mahabharata | Adi Parva | Ekalavya | Gatekeepers who demand your edge as tribute |
+| [x] 2026-10-25 | ekalavyas-thumb | Ekalavya's Thumb | Mahabharata | Mahabharata | Adi Parva | Ekalavya | Gatekeepers who demand your edge as tribute |
 | [ ] | the-parable-of-the-raft | The Parable of the Raft | Buddhist Parables | Majjhima Nikaya | Alagaddupama Sutta, MN 22 | Raft | Clinging to processes after they stop serving |
 | [ ] | the-yakshas-questions | The Yaksha's Questions | Mahabharata | Mahabharata | Vana Parva (Yaksha Prashna) | Yaksha | Answering hard questions under pressure |
 | [ ] | the-monkey-kings-bridge | The Monkey King's Bridge | Jataka Tales | Jataka Tales | Mahakapi Jataka, No. 407 (UNVERIFIED) | Mahakapi | The leader who becomes the bridge for the team |
