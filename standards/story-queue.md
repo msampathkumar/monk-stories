@@ -26,7 +26,7 @@ Rules:
 | [x] 2026-10-25 | ekalavyas-thumb | Ekalavya's Thumb | Mahabharata | Mahabharata | Adi Parva | Ekalavya | Gatekeepers who demand your edge as tribute |
 | [x] 2026-10-26 | the-parable-of-the-raft | The Parable of the Raft | Buddhist Parables | Majjhima Nikaya | Alagaddupama Sutta, MN 22 | Raft | Clinging to processes after they stop serving |
 | [x] 2026-10-27 | the-yakshas-questions | The Yaksha's Questions | Mahabharata | Mahabharata | Vana Parva (Yaksha Prashna) | Yaksha | Answering hard questions under pressure |
-| [ ] | the-monkey-kings-bridge | The Monkey King's Bridge | Jataka Tales | Jataka Tales | Mahakapi Jataka, No. 407 (UNVERIFIED) | Mahakapi | The leader who becomes the bridge for the team |
+| [x] 2026-10-28 | the-monkey-kings-bridge | The Monkey King's Bridge | Jataka Tales | Jataka Tales | Mahakapi Jataka, No. 407 (UNVERIFIED) | Mahakapi | The leader who becomes the bridge for the team |
 | [ ] | the-lion-and-the-hare | The Lion and the Hare | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) | Bhasuraka | Outwitting a tyrant without open confrontation |
 | [ ] | the-lion-makers | The Lion Makers | Panchatantra | Panchatantra | Book 5 (Aparikshitakarakam) | Lion Makers | Brilliance without judgment builds the beast that eats you |
 | [ ] | angulimala-stops | Angulimala: "I Have Stopped" | Buddhist Parables | Majjhima Nikaya | Angulimala Sutta, MN 86 | Angulimala | Stopping a destructive pattern mid-career |
