@@ -28,7 +28,7 @@ Rules:
 | [x] 2026-10-27 | the-yakshas-questions | The Yaksha's Questions | Mahabharata | Mahabharata | Vana Parva (Yaksha Prashna) | Yaksha | Answering hard questions under pressure |
 | [x] 2026-10-28 | the-monkey-kings-bridge | The Monkey King's Bridge | Jataka Tales | Jataka Tales | Mahakapi Jataka, No. 407 (UNVERIFIED) | Mahakapi | The leader who becomes the bridge for the team |
 | [x] 2026-10-29 | the-lion-and-the-hare | The Lion and the Hare | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) | Bhasuraka | Outwitting a tyrant without open confrontation |
-| [ ] | the-lion-makers | The Lion Makers | Panchatantra | Panchatantra | Book 5 (Aparikshitakarakam) | Lion Makers | Brilliance without judgment builds the beast that eats you |
+| [x] 2026-10-30 | the-lion-makers | The Lion Makers | Panchatantra | Panchatantra | Book 5 (Aparikshitakarakam) | Lion Makers | Brilliance without judgment builds the beast that eats you |
 | [ ] | angulimala-stops | Angulimala: "I Have Stopped" | Buddhist Parables | Majjhima Nikaya | Angulimala Sutta, MN 86 | Angulimala | Stopping a destructive pattern mid-career |
 | [ ] | karnas-armour | Karna's Armour and Indra's Request | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Kavacha | Generosity exploited by a calculated request |
 <!-- QUEUE:END -->
