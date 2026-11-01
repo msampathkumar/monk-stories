@@ -30,5 +30,5 @@ Rules:
 | [x] 2026-10-29 | the-lion-and-the-hare | The Lion and the Hare | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) | Bhasuraka | Outwitting a tyrant without open confrontation |
 | [x] 2026-10-30 | the-lion-makers | The Lion Makers | Panchatantra | Panchatantra | Book 5 (Aparikshitakarakam) | Lion Makers | Brilliance without judgment builds the beast that eats you |
 | [ ] | angulimala-stops | Angulimala: "I Have Stopped" | Buddhist Parables | Majjhima Nikaya | Angulimala Sutta, MN 86 | Angulimala | Stopping a destructive pattern mid-career |
-| [ ] | karnas-armour | Karna's Armour and Indra's Request | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Kavacha | Generosity exploited by a calculated request |
+| [x] 2026-11-01 | karnas-armour | Karna's Armour and Indra's Request | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Kavacha | Generosity exploited by a calculated request |
 <!-- QUEUE:END -->
