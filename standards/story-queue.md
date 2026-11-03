@@ -33,7 +33,7 @@ Rules:
 | [x] 2026-11-01 | karnas-armour | Karna's Armour and Indra's Request | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Kavacha | Generosity exploited by a calculated request |
 | [x] 2026-11-02 | the-golden-geese | The Golden Geese | Jataka Tales | Jataka Tales | Suvarna Hansa Jataka, No. 136 (UNVERIFIED) | Golden Goose | Greed that turns a sustainable asset into a barren loss |
 | [ ] | vidura-and-dhritarashtra | Vidura's Counsel to Dhritarashtra | Mahabharata | Mahabharata | Udyoga Parva (UNVERIFIED) | Vidura | Speaking hard truths to a ruler blinded by affection |
-| [ ] | the-pigeon-and-the-hunter | The Pigeon and the Hunter | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | Pigeon | Mutual loyalty that defeats a trap |
+| [x] 2026-11-03 | the-pigeon-and-the-hunter | The Pigeon and the Hunter | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | Pigeon | Mutual loyalty that defeats a trap |
 | [ ] | the-blind-men-and-the-elephant | The Blind Men and the Elephant | Buddhist Parables | Udana | Udana 6.4 (UNVERIFIED) | Elephant | Partial perspectives presented as absolute truth |
 | [ ] | shvetaketu-and-aruni | Shvetaketu's Pride Humbled | Vedas & Upanishads | Chandogya Upanishad | Chapter 6 (UNVERIFIED) | Shvetaketu | Academic arrogance humbled by deeper reality |
 <!-- QUEUE:END -->
