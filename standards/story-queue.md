@@ -35,5 +35,5 @@ Rules:
 | [ ] | vidura-and-dhritarashtra | Vidura's Counsel to Dhritarashtra | Mahabharata | Mahabharata | Udyoga Parva (UNVERIFIED) | Vidura | Speaking hard truths to a ruler blinded by affection |
 | [x] 2026-11-03 | the-pigeon-and-the-hunter | The Pigeon and the Hunter | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | Pigeon | Mutual loyalty that defeats a trap |
 | [ ] | the-blind-men-and-the-elephant | The Blind Men and the Elephant | Buddhist Parables | Udana | Udana 6.4 (UNVERIFIED) | Elephant | Partial perspectives presented as absolute truth |
-| [ ] | shvetaketu-and-aruni | Shvetaketu's Pride Humbled | Vedas & Upanishads | Chandogya Upanishad | Chapter 6 (UNVERIFIED) | Shvetaketu | Academic arrogance humbled by deeper reality |
+| [x] 2026-11-04 | shvetaketu-and-aruni | Shvetaketu's Pride Humbled | Vedas & Upanishads | Chandogya Upanishad | Chapter 6 (UNVERIFIED) | Shvetaketu | Academic arrogance humbled by deeper reality |
 <!-- QUEUE:END -->
