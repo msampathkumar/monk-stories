@@ -37,7 +37,7 @@ Rules:
 | [x] 2026-11-05 | the-blind-men-and-the-elephant | The Blind Men and the Elephant | Buddhist Parables | Udana | Udana 6.4 (UNVERIFIED) | Blind Men | Partial perspectives presented as absolute truth |
 | [x] 2026-11-04 | shvetaketu-and-aruni | Shvetaketu's Pride Humbled | Vedas & Upanishads | Chandogya Upanishad | Chapter 6 (UNVERIFIED) | Shvetaketu | Academic arrogance humbled by deeper reality |
 | [x] 2026-11-07 | sibi-and-the-dove | Sibi and the Dove | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Sibi | Protecting a dependent at personal cost |
-| [ ] | the-potter-and-the-ass | The Potter and the Ass | Panchatantra | Panchatantra | Book 3 (UNVERIFIED) | PotterAss | Imitating a leader's style without understanding its mechanics |
+| [x] 2026-11-08 | the-potter-and-the-ass | The Potter and the Ass | Panchatantra | Panchatantra | Book 3 (UNVERIFIED) | PotterAss | Imitating a leader's style without understanding its mechanics |
 | [ ] | the-blind-turtle | The Blind Turtle and the Golden Yoke | Buddhist Parables | Majjhima Nikaya | Bala-Pandita Sutta, MN 129 (UNVERIFIED) | BlindTurtle | The extreme rarity of a rare career window |
 | [ ] | the-merchant-and-two-wives | The Merchant and the Two Wives | Panchatantra | Panchatantra | Book 1 (UNVERIFIED) | TwoWives | Trying to please conflicting stakeholders splits your focus |
 | [ ] | the-quail-and-the-fowler | The Quail and the Fowler | Jataka Tales | Jataka Tales | Vattaka Jataka, No. 35 (UNVERIFIED) | Quail | Solidarity among peers when hunted by a predator |
