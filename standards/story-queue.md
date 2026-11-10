@@ -39,7 +39,7 @@ Rules:
 | [x] 2026-11-07 | sibi-and-the-dove | Sibi and the Dove | Mahabharata | Mahabharata | Vana Parva (UNVERIFIED) | Sibi | Protecting a dependent at personal cost |
 | [x] 2026-11-08 | the-potter-and-the-ass | The Potter and the Ass | Panchatantra | Panchatantra | Book 3 (UNVERIFIED) | PotterAss | Imitating a leader's style without understanding its mechanics |
 | [x] 2026-11-09 | the-blind-turtle | The Blind Turtle and the Golden Yoke | Buddhist Parables | Majjhima Nikaya | Bala-Pandita Sutta, MN 129 (UNVERIFIED) | BlindTurtle | The extreme rarity of a rare service window |
-| [ ] | the-merchant-and-two-wives | The Merchant and the Two Wives | Panchatantra | Panchatantra | Book 1 (UNVERIFIED) | TwoWives | Trying to please conflicting stakeholders splits your focus |
+| [x] 2026-11-10 | the-merchant-and-two-wives | The Merchant and the Two Wives | Panchatantra | Panchatantra | Book 1 (UNVERIFIED) | TwoWives | Trying to please conflicting stakeholders splits your focus |
 | [ ] | the-quail-and-the-fowler | The Quail and the Fowler | Jataka Tales | Jataka Tales | Vattaka Jataka, No. 35 (UNVERIFIED) | Quail | Solidarity among peers when hunted by a predator |
 
 <!-- QUEUE:END -->
