@@ -45,6 +45,6 @@ Rules:
 | [x] 2026-11-12 | the-golden-stag | The Golden Stag | Jataka Tales | Jataka Tales | Nyagrodhamiga Jataka, No. 12 (UNVERIFIED) | GoldenStag | Leadership sacrifice protecting the team under threat |
 | [x] 2026-11-13 | the-ass-in-lions-skin | The Ass in the Lion's Skin | Panchatantra | Panchatantra | Book 4 (Labdhapranasham) (UNVERIFIED) | LionsSkin | Superficial imitation that collapses when sound or pressure is applied |
 | [ ] | vibhishanas-counsel | Vibhishana's Counsel to Ravana | Ramayana | Valmiki Ramayana | Yuddha Kanda (UNVERIFIED) | Vibhishana | Speaking truth to power when the leader is leading the enterprise off a cliff |
-| [ ] | kisa-gotami-mustard | Kisa Gotami and the Mustard Seed | Buddhist Parables | Dhammapada Commentary | Dhammapada Atthakatha (UNVERIFIED) | MustardSeed | Accepting universal grief and reality when personal loss blinds judgment |
+| [x] 2026-11-14 | kisa-gotami-mustard | Kisa Gotami and the Mustard Seed | Buddhist Parables | Dhammapada Commentary | Dhammapada Atthakatha (UNVERIFIED) | MustardSeed | Accepting universal grief and reality when personal loss blinds judgment |
 | [ ] | bhishma-bed-of-arrows | Bhishma on the Bed of Arrows | Mahabharata | Mahabharata | Bhishma Parva (UNVERIFIED) | ArrowBed | Standing by a flawed institutional compact until the end |
 <!-- QUEUE:END -->
