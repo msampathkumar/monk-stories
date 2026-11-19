@@ -49,7 +49,7 @@ Rules:
 | [x] 2026-11-15 | bhishma-bed-of-arrows | Bhishma on the Bed of Arrows | Mahabharata | Mahabharata | Bhishma Parva (UNVERIFIED) | ArrowBed | Standing by a flawed institutional compact until the end |
 | [x] 2026-11-17 | the-frog-and-the-well | The Frog and the Well | Jataka Tales | Jataka Tales | Kupa Jataka, No. 182 (UNVERIFIED) | WellFrog | Provincial thinking rejecting broader organizational reality |
 | [x] 2026-11-18 | the-swan-with-golden-feathers | The Swan with Golden Feathers | Jataka Tales | Jataka Tales | Suvarna Hamsa Jataka, No. 136 variant (UNVERIFIED) | GoldenFeather | Exploiting a benefactor until generosity turns into withdrawal |
-| [ ] | pravahana-five-fires | Pravahana's Five Fires Teaching | Vedas & Upanishads | Chandogya Upanishad | Chapter 5 (UNVERIFIED) | Pravahana | Realizing your technical expertise lacks foundational domain knowledge |
+| [x] 2026-11-19 | pravahana-five-fires | Pravahana's Five Fires Teaching | Vedas & Upanishads | Chandogya Upanishad | Chapter 5 (UNVERIFIED) | Pravahana | Realizing your technical expertise lacks foundational domain knowledge |
 | [ ] | the-ox-who-envied-the-pig | The Ox Who Envied the Pig | Panchatantra | Panchatantra | Book 1 (UNVERIFIED) | EnviedPig | Envying those whose heavy workload ends in termination while you survive |
 | [ ] | the-wise-physician-jivaka | Jivaka's Diagnosis of the King | Buddhist Parables | Vinaya Pitaka | Mahavagga, Chapter 8 (UNVERIFIED) | Jivaka | Precise diagnosis of structural rot before prescribing surgery |
 
