@@ -51,6 +51,6 @@ Rules:
 | [x] 2026-11-18 | the-swan-with-golden-feathers | The Swan with Golden Feathers | Jataka Tales | Jataka Tales | Suvarna Hamsa Jataka, No. 136 variant (UNVERIFIED) | GoldenFeather | Exploiting a benefactor until generosity turns into withdrawal |
 | [x] 2026-11-19 | pravahana-five-fires | Pravahana's Five Fires Teaching | Vedas & Upanishads | Chandogya Upanishad | Chapter 5 (UNVERIFIED) | Pravahana | Realizing your technical expertise lacks foundational domain knowledge |
 | [x] 2026-11-20 | the-ox-who-envied-the-pig | The Ox Who Envied the Pig | Panchatantra | Panchatantra | Book 1 (UNVERIFIED) | EnviedPig | Envying those whose heavy workload ends in termination while you survive |
-| [ ] | the-wise-physician-jivaka | Jivaka's Diagnosis of the King | Buddhist Parables | Vinaya Pitaka | Mahavagga, Chapter 8 (UNVERIFIED) | Jivaka | Precise diagnosis of structural rot before prescribing surgery |
+| [x] 2026-11-21 | the-wise-physician-jivaka | Jivaka's Diagnosis of the King | Buddhist Parables | Vinaya Pitaka | Mahavagga, Chapter 8 (UNVERIFIED) | Jivaka | Precise diagnosis of structural rot before prescribing surgery |
 
 <!-- QUEUE:END -->
