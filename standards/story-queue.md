@@ -44,7 +44,7 @@ Rules:
 
 | [x] 2026-11-12 | the-golden-stag | The Golden Stag | Jataka Tales | Jataka Tales | Nyagrodhamiga Jataka, No. 12 (UNVERIFIED) | GoldenStag | Leadership sacrifice protecting the team under threat |
 | [x] 2026-11-13 | the-ass-in-lions-skin | The Ass in the Lion's Skin | Panchatantra | Panchatantra | Book 4 (Labdhapranasham) (UNVERIFIED) | LionsSkin | Superficial imitation that collapses when sound or pressure is applied |
-| [ ] | vibhishanas-counsel | Vibhishana's Counsel to Ravana | Ramayana | Valmiki Ramayana | Yuddha Kanda (UNVERIFIED) | Vibhishana | Speaking truth to power when the leader is leading the enterprise off a cliff |
+| [x] 2026-11-22 | the-bird-with-two-heads | The Bird with Two Heads | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | TwoHeads | Co-founders or team members working at cross-purposes while sharing the same budget/entity |
 | [x] 2026-11-14 | kisa-gotami-mustard | Kisa Gotami and the Mustard Seed | Buddhist Parables | Dhammapada Commentary | Dhammapada Atthakatha (UNVERIFIED) | MustardSeed | Accepting universal grief and reality when personal loss blinds judgment |
 | [x] 2026-11-15 | bhishma-bed-of-arrows | Bhishma on the Bed of Arrows | Mahabharata | Mahabharata | Bhishma Parva (UNVERIFIED) | ArrowBed | Standing by a flawed institutional compact until the end |
 | [x] 2026-11-17 | the-frog-and-the-well | The Frog and the Well | Jataka Tales | Jataka Tales | Kupa Jataka, No. 182 (UNVERIFIED) | WellFrog | Provincial thinking rejecting broader organizational reality |
