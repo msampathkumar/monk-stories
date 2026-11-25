@@ -54,7 +54,7 @@ Rules:
 | [x] 2026-11-21 | the-wise-physician-jivaka | Jivaka's Diagnosis of the King | Buddhist Parables | Vinaya Pitaka | Mahavagga, Chapter 8 (UNVERIFIED) | Jivaka | Precise diagnosis of structural rot before prescribing surgery |
 
 | [x] 2026-11-24 | the-elephant-and-the-dog | The Elephant and the Dog | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | DogElephant | Loyalty tested when a royal patron abruptly withdraws favor |
-| [ ] | the-ass-and-the-lapdog | The Ass and the Lapdog | Panchatantra | Panchatantra | Book 3 (Kakolukiyam) (UNVERIFIED) | Lapdog | Mimicking the favored executive's demeanor without earning the trust |
+| [x] 2026-11-25 | the-ass-and-the-lapdog | The Ass and the Lapdog | Panchatantra | Panchatantra | Book 3 (Kakolukiyam) (UNVERIFIED) | Lapdog | Mimicking the favored executive's demeanor without earning the trust |
 | [ ] | the-merchant-of-seri | The Merchant of Seri | Jataka Tales | Jataka Tales | Serivanija Jataka, No. 3 (UNVERIFIED) | SeriMerchant | Recognizing genuine assets that others dismiss as worthless brass |
 | [ ] | the-wise-crab | The Wise Crab and the Crane | Panchatantra | Panchatantra | Book 1 (Mitra-bheda) (UNVERIFIED) | WiseCrab | Seeing through false benevolence when the ecosystem dries up |
 | [ ] | the-quail-and-the-falcon | The Quail and the Falcon | Jataka Tales | Jataka Tales | Vattaka Jataka variant (UNVERIFIED) | QuailFalcon | Staying rooted in core competence while predators circle |
